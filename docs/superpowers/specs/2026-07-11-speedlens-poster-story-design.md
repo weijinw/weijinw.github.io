@@ -32,6 +32,8 @@ The page flow is:
 
 The current two-card screenshot section is removed.
 
+`hero-capture.png` intentionally appears in both the hero and story step 01. The hero uses it as the immediate product visual; step 01 reuses it to anchor the complete capture → review → export sequence. No other poster is duplicated.
+
 ## Hero
 
 The hero remains a two-column layout on desktop.
@@ -152,7 +154,7 @@ Alt text must describe the product UI shown rather than repeat the baked-in post
 
 - Capture poster: `SpeedLens capture interface showing camera controls and a tracked skateboarder.`
 - Review poster: `SpeedLens recorded-video review interface with playback controls and frame thumbnails.`
-- Export poster: `SpeedLens review and process-output interface with Track, Tag, Crop, crop, and Tag and Timestamp options.`
+- Export poster: `SpeedLens review and process-output interface showing Track, Tag, and Crop modes plus crop and Tag and Timestamp output options.`
 
 The surrounding text provides the product explanation, so alt text should stay factual and concise.
 
