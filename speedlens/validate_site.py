@@ -54,6 +54,13 @@ def main() -> int:
     styles = require_file(ROOT / "styles.css", errors)
     policy = require_file(ROOT / "privacy-policy" / "index.html", errors)
 
+    for asset_name in [
+        "hero-capture.png",
+        "review-frame.png",
+        "timestamp-output.png",
+    ]:
+        require_file(ROOT / "assets" / asset_name, errors)
+
     require_text(
         homepage,
         [
@@ -65,6 +72,13 @@ def main() -> int:
             "Optional GPS metadata",
             "Need help?",
             "welkin.wong@gmail.com",
+            "Review the action",
+            "Move from the whole play to the exact frame.",
+            "Track, Tag, or Crop",
+            "Include Tag & Timestamp",
+            './assets/hero-capture.png',
+            './assets/review-frame.png',
+            './assets/timestamp-output.png',
         ],
         "homepage",
         errors,
@@ -107,7 +121,9 @@ def main() -> int:
         [
             "--accent: #36d7ff;",
             "--timing: #ff9d3d;",
-            ".capture-frame",
+            ".hero-shot",
+            ".workflow-grid",
+            ".workflow-card",
             "@media (max-width: 820px)",
             "@media (max-width: 560px)",
             "prefers-reduced-motion",
