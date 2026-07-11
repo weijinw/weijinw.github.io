@@ -59,7 +59,9 @@ def main() -> int:
         "review-frame.png",
         "timestamp-output.png",
     ]:
-        require_file(ROOT / "assets" / asset_name, errors)
+        asset_path = ROOT / "assets" / asset_name
+        if not asset_path.is_file():
+            errors.append(f"missing required file: {asset_path.relative_to(ROOT)}")
 
     require_text(
         homepage,
