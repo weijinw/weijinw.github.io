@@ -161,10 +161,12 @@ Use only relative URLs for internal navigation and assets so local previews and 
 
 The document head includes:
 
-- descriptive `<title>`
-- meta description
-- Open Graph title, description, type, and canonical page URL metadata suitable for the public GitHub Pages root
-- favicon handling that uses an existing repository icon only if an appropriate root-safe asset is available during implementation; otherwise use a non-broken conventional favicon declaration strategy without inventing a logo
+- a descriptive `<title>`
+- a meta description
+- a canonical `<link>` for `https://weijinw.github.io/`
+- Open Graph title, description, type, and `og:url` metadata for the public GitHub Pages root
+
+The repository has no neutral existing favicon. Do not invent a logo, reuse either app's identity as the collection identity, or add a broken favicon reference. The root page intentionally omits a custom favicon declaration until a neutral favicon asset exists.
 
 No build process is introduced.
 
