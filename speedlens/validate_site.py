@@ -75,7 +75,7 @@ def main() -> int:
             "Review the action",
             "Move from the whole play to the exact frame.",
             "Track, Tag, or Crop",
-            "Include Tag & Timestamp",
+            "Include Tag &amp; Timestamp",
             './assets/hero-capture.png',
             './assets/review-frame.png',
             './assets/timestamp-output.png',
