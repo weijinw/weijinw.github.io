@@ -68,6 +68,7 @@ body {
 a { color: inherit; }
 img { display: block; max-width: 100%; }
 .shell { width: min(calc(100% - 40px), var(--max-width)); margin-inline: auto; }
+section[id] { scroll-margin-top: 96px; }
 
 .site-header {
   position: sticky;
