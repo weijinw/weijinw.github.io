@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact support for FitCycles, SpeedLens, AlwaysOn Desk Clock, or the app collection website.">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Support — Small apps. Thoughtfully made.</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./support.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="header-nav shell" aria-label="Primary navigation">
+      <a href="../#apps">Apps</a>
+      <a aria-current="page" href="./">Support</a>
+    </nav>
+  </header>
+
+  <main class="support-page shell">
+    <section class="support-layout" aria-labelledby="support-title">
+      <div class="support-intro">
+        <p class="eyebrow">Support</p>
+        <h1 id="support-title">How can I help?</h1>
+        <p>Choose an app and describe the question, feedback, or problem. Submit opens your default email app with the message prepared.</p>
+      </div>
+
+      <div class="support-panel">
+        <form id="support-form">
+          <div class="form-field">
+            <label for="support-app">App</label>
+            <select id="support-app" name="app">
+              <option value="general">General support</option>
+              <option value="fitcycles">FitCycles</option>
+              <option value="speedlens">SpeedLens</option>
+              <option value="alwayson">AlwaysOn Desk Clock</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="support-title-input">Title</label>
+            <input id="support-title-input" name="title" type="text" maxlength="120" autocomplete="off" placeholder="What do you need help with?" required>
+            <p class="field-hint" id="subject-prefix">Email subject starts with [App Support]</p>
+          </div>
+
+          <div class="form-field">
+            <label for="support-message">Message</label>
+            <textarea id="support-message" name="message" rows="9" maxlength="4000" placeholder="Describe what happened and what you expected." required></textarea>
+          </div>
+
+          <p class="form-note">For a bug report, include your device model, software version, and steps to reproduce when relevant.</p>
+
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">Submit</button>
+            <button class="button button-secondary" id="cancel-support" type="button">Cancel</button>
+          </div>
+        </form>
+        <noscript><p class="noscript-note">JavaScript is required to prepare and open the support email.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <nav class="footer-links" aria-label="App links">
+      <a href="../">All apps</a>
+      <a href="../fitcycles/">FitCycles</a>
+      <a href="../speedlens/">SpeedLens</a>
+      <a href="../alwayson/">AlwaysOn Desk Clock</a>
+    </nav>
+  </footer>
+</body>
+</html>

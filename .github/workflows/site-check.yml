@@ -21,5 +21,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: Validate static site
         run: python3 scripts/check_site.py
+
+      - name: Test support form
+        run: node scripts/test_support.js
