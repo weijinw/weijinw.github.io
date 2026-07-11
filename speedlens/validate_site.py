@@ -134,9 +134,18 @@ def main() -> int:
             ".story-step",
             ".story-poster",
             ".story-step-reverse",
-            "max-height: 680px;",
-            "max-height: 760px;",
-            "max-height: 640px;",
+            "clamp(2.6rem, 4.4vw, 4.1rem)",
+            "clamp(1.9rem, 3.2vw, 3.2rem)",
+            "clamp(1.7rem, 2.5vw, 2.5rem)",
+            "clamp(1rem, 1.25vw, 1.12rem)",
+            "padding-block: clamp(40px, 5vw, 60px)",
+            ".section { padding-block: 60px; }",
+            "max-height: 560px;",
+            "max-height: 620px;",
+            "gap: clamp(44px, 6vw, 72px)",
+            "margin-block: 20px 60px",
+            "clamp(2.35rem, 11vw, 3.4rem)",
+            ".policy-intro { color: var(--muted); font-size: clamp(1.04rem, 1.6vw, 1.2rem); }",
             "@media (max-width: 820px)",
             "@media (max-width: 560px)",
             "prefers-reduced-motion",
@@ -144,6 +153,21 @@ def main() -> int:
         "styles",
         errors,
     )
+
+    obsolete_density_values = [
+        "min-height: min(700px, calc(100vh - 72px))",
+        "clamp(3rem, 5.4vw, 5.6rem)",
+        "clamp(2.2rem, 4vw, 4.35rem)",
+        "clamp(2rem, 3.2vw, 3.5rem)",
+        ".section { padding-block: 96px; }",
+        "max-height: 680px;",
+        "max-height: 760px;",
+        "gap: clamp(72px, 10vw, 132px)",
+        "min-height: 250px;",
+    ]
+    for value in obsolete_density_values:
+        if value in styles:
+            errors.append(f"styles still contain obsolete density value: {value}")
 
     if errors:
         for error in errors:
