@@ -4,7 +4,7 @@
 
 **Goal:** Replace the temporary CSS camera composition with the committed SpeedLens capture screenshot and add a focused two-image review/timestamp product section.
 
-**Architecture:** Keep the existing static site structure and privacy page unchanged. `speedlens/index.html` will consume the three committed PNG assets directly, while `speedlens/styles.css` will provide responsive image framing consistent with the approved SpeedLens visual system. `speedlens/validate_site.py` will enforce the three image references, the screenshot-section copy, asset existence, and the new CSS hooks.
+**Architecture:** Keep the existing static site structure and privacy page unchanged. `speedlens/index.html` consumes the three committed PNG assets directly, `speedlens/styles.css` frames those images responsively, and `speedlens/validate_site.py` enforces the image references, asset existence, screenshot copy, and CSS hooks.
 
 **Tech Stack:** HTML5, CSS, Python 3 standard library, GitHub Pages.
 
@@ -16,14 +16,14 @@
 - No analytics or tracking.
 - Use relative links so the site works correctly under `/speedlens/` on GitHub Pages.
 - Do not modify `alwayson/`.
-- Preserve the current SpeedLens privacy-policy page unchanged.
+- Preserve `speedlens/privacy-policy/index.html` byte-for-byte.
 - Support desktop, tablet, and mobile layouts.
 - Use semantic HTML and descriptive image `alt` text.
 - Maintain visible keyboard focus states and readable dark-mode contrast.
 - Respect `prefers-reduced-motion`.
-- Product screenshot section is already approved by `docs/superpowers/specs/2026-07-11-speedlens-site-design.md` when suitable source images are available.
+- Use the approved screenshot section from `docs/superpowers/specs/2026-07-11-speedlens-site-design.md`.
 - Use the committed assets exactly as named: `hero-capture.png`, `review-frame.png`, and `timestamp-output.png`.
-- Product copy must stay within behavior verified in `weijinw/speed-track` source: exact-frame timeline selection and Track/Tag/Crop review modes in `VideoReviewView.swift`; optional `Include Tag & Timestamp` export configuration in `QueueView.swift`.
+- Keep product copy within behavior verified in `weijinw/speed-track`: exact-frame timeline selection and Track/Tag/Crop review modes in `VideoReviewView.swift`; optional `Include Tag & Timestamp` export configuration in `QueueView.swift`.
 
 ---
 
@@ -34,12 +34,12 @@
 - Test: `speedlens/validate_site.py`
 
 **Interfaces:**
-- Consumes: `speedlens/index.html`, `speedlens/styles.css`, `speedlens/privacy-policy/index.html`, and the three files under `speedlens/assets/`.
-- Produces: `python3 speedlens/validate_site.py` exits `0` only when the homepage references the approved product images and screenshot-section contract.
+- Consumes: the SpeedLens homepage, stylesheet, privacy page, and three product PNGs.
+- Produces: `python3 speedlens/validate_site.py`, which exits `0` only when the image integration contract is present.
 
-- [ ] **Step 1: Add asset and screenshot-section requirements before changing the page**
+- [ ] **Step 1: Add asset existence checks before changing the page**
 
-In `main()`, after loading the policy, add exactly:
+After loading the policy, add:
 
 ```python
     for asset_name in [
@@ -50,19 +50,21 @@ In `main()`, after loading the policy, add exactly:
         require_file(ROOT / "assets" / asset_name, errors)
 ```
 
-Extend the homepage required-text list with exactly:
+- [ ] **Step 2: Add screenshot copy and image-path requirements**
+
+Extend the homepage required-text list with:
 
 ```python
             "Review the action",
             "Move from the whole play to the exact frame.",
             "Track, Tag, or Crop",
-            "Include Tag & Timestamp",
+            "Include Tag &amp; Timestamp",
             './assets/hero-capture.png',
             './assets/review-frame.png',
             './assets/timestamp-output.png',
 ```
 
-Replace the stylesheet requirements:
+Replace the stylesheet requirement:
 
 ```python
             ".capture-frame",
@@ -76,7 +78,7 @@ with:
             ".workflow-card",
 ```
 
-- [ ] **Step 2: Run the validator to verify RED**
+- [ ] **Step 3: Run the validator to verify RED**
 
 Run:
 
@@ -84,9 +86,9 @@ Run:
 python3 speedlens/validate_site.py
 ```
 
-Expected: exit `1` with homepage missing-text errors for the screenshot copy/image paths and stylesheet missing-text errors for `.hero-shot`, `.workflow-grid`, and `.workflow-card`. There must be no `missing required file: assets/...` errors because all three PNGs are already committed.
+Expected: exit `1` with missing homepage screenshot-copy/image-path requirements and missing `.hero-shot`, `.workflow-grid`, and `.workflow-card` requirements. There must be no `missing required file: assets/...` errors.
 
-- [ ] **Step 3: Commit the validator contract**
+- [ ] **Step 4: Commit the validator contract**
 
 ```bash
 git add speedlens/validate_site.py
@@ -103,12 +105,12 @@ git commit -m "Validate SpeedLens product images"
 - Test: `speedlens/validate_site.py`
 
 **Interfaces:**
-- Consumes: the Task 1 validator contract and the three committed PNG files.
-- Produces: a real-product hero image plus a two-card product screenshot section under `/speedlens/`.
+- Consumes: the Task 1 validator contract and the three PNG assets.
+- Produces: a real-product hero and a responsive two-card review/timestamp screenshot section.
 
-- [ ] **Step 1: Replace the decorative hero composition with the real capture screenshot**
+- [ ] **Step 1: Replace the decorative hero composition**
 
-Replace the complete `<div class="capture-frame" ...>...</div>` hero block with exactly:
+Replace the complete `.capture-frame` hero element with:
 
 ```html
       <figure class="hero-shot">
@@ -116,9 +118,9 @@ Replace the complete `<div class="capture-frame" ...>...</div>` hero block with 
       </figure>
 ```
 
-- [ ] **Step 2: Add the product screenshot section before the support section**
+- [ ] **Step 2: Add the screenshot section before support**
 
-Insert exactly before `<section class="support-section shell" ...>`:
+Insert:
 
 ```html
     <section class="section shell" aria-labelledby="workflow-title">
@@ -145,14 +147,11 @@ Insert exactly before `<section class="support-section shell" ...>`:
         </figure>
       </div>
     </section>
-
 ```
 
-- [ ] **Step 3: Replace the obsolete decorative-camera CSS with real-image framing**
+- [ ] **Step 3: Replace decorative-camera CSS with real-image framing**
 
-Delete the CSS rules from `.capture-frame {` through `.capture-corner-bottom-right { ... }` inclusive.
-
-Insert exactly in their place:
+Delete the rules from `.capture-frame {` through `.capture-corner-bottom-right { ... }` and insert:
 
 ```css
 .hero-shot {
@@ -171,7 +170,7 @@ Insert exactly in their place:
 }
 ```
 
-After the feature-card rules and before `.support-section`, add exactly:
+After `.timing-kicker`, add:
 
 ```css
 .workflow-grid {
@@ -218,15 +217,9 @@ After the feature-card rules and before `.support-section`, add exactly:
 }
 ```
 
-In `@media (max-width: 820px)`, replace:
+- [ ] **Step 4: Update responsive layout hooks**
 
-```css
-  .capture-frame { order: -1; min-height: 330px; }
-  .feature-grid,
-  .support-section { grid-template-columns: 1fr; }
-```
-
-with:
+In `@media (max-width: 820px)`, use:
 
 ```css
   .hero-shot { order: -1; }
@@ -235,16 +228,9 @@ with:
   .support-section { grid-template-columns: 1fr; }
 ```
 
-In `@media (max-width: 560px)`, delete these obsolete lines:
+Remove the obsolete `.capture-frame`, `.capture-topline`, `.capture-bottomline`, and `.motion-field` mobile rules.
 
-```css
-  .capture-frame { min-height: 260px; }
-  .capture-topline,
-  .capture-bottomline { right: 20px; left: 20px; font-size: 0.62rem; }
-  .motion-field { inset: 64px 28px 58px; }
-```
-
-- [ ] **Step 4: Run the validator and HTML parser to verify GREEN**
+- [ ] **Step 5: Run GREEN verification**
 
 Run:
 
@@ -269,7 +255,7 @@ SpeedLens site validation passed
 SpeedLens homepage HTML parsed
 ```
 
-- [ ] **Step 5: Run the product claim guard**
+- [ ] **Step 6: Run the screenshot copy guard**
 
 Run:
 
@@ -278,16 +264,9 @@ python3 - <<'PY'
 from pathlib import Path
 
 homepage = Path("speedlens/index.html").read_text(encoding="utf-8")
-for forbidden in [
-    "AI-powered",
-    "automatic athlete tracking",
-    "cloud backup",
-]:
+for forbidden in ["AI-powered", "automatic athlete tracking", "cloud backup"]:
     assert forbidden not in homepage, forbidden
-for required in [
-    "Track, Tag, or Crop",
-    "Include Tag &amp; Timestamp",
-]:
+for required in ["Track, Tag, or Crop", "Include Tag &amp; Timestamp"]:
     assert required in homepage, required
 print("SpeedLens screenshot copy guard passed")
 PY
@@ -299,7 +278,7 @@ Expected:
 SpeedLens screenshot copy guard passed
 ```
 
-- [ ] **Step 6: Commit the product image integration**
+- [ ] **Step 7: Commit the product image integration**
 
 ```bash
 git add speedlens/index.html speedlens/styles.css
@@ -308,18 +287,20 @@ git commit -m "Show SpeedLens product screenshots"
 
 ---
 
-### Task 3: Verify route, asset, privacy, and change scope
+### Task 3: Verify route, assets, privacy, and scope
 
 **Files:**
 - Verify: `speedlens/index.html`
 - Verify: `speedlens/styles.css`
 - Verify: `speedlens/validate_site.py`
 - Verify unchanged: `speedlens/privacy-policy/index.html`
-- Verify assets: `speedlens/assets/hero-capture.png`, `speedlens/assets/review-frame.png`, `speedlens/assets/timestamp-output.png`
+- Verify: `speedlens/assets/hero-capture.png`
+- Verify: `speedlens/assets/review-frame.png`
+- Verify: `speedlens/assets/timestamp-output.png`
 
 **Interfaces:**
 - Consumes: Tasks 1 and 2.
-- Produces: a verified Pages-ready SpeedLens site with the approved product screenshot section.
+- Produces: a verified Pages-ready SpeedLens screenshot integration.
 
 - [ ] **Step 1: Run the validator fresh**
 
@@ -327,13 +308,9 @@ git commit -m "Show SpeedLens product screenshots"
 python3 speedlens/validate_site.py
 ```
 
-Expected:
+Expected: `SpeedLens site validation passed`.
 
-```text
-SpeedLens site validation passed
-```
-
-- [ ] **Step 2: Verify relative image references resolve to files**
+- [ ] **Step 2: Verify every relative image reference resolves**
 
 ```bash
 python3 - <<'PY'
@@ -355,23 +332,20 @@ class Images(HTMLParser):
 
 parser = Images()
 parser.feed(html)
+assert parser.sources == [
+    "./assets/hero-capture.png",
+    "./assets/review-frame.png",
+    "./assets/timestamp-output.png",
+]
 for source in parser.sources:
-    assert source.startswith("./"), source
-    path = root / source.removeprefix("./")
-    assert path.is_file(), path
+    assert (root / source.removeprefix("./")).is_file(), source
 print("SpeedLens image references passed")
 PY
 ```
 
-Expected:
+Expected: `SpeedLens image references passed`.
 
-```text
-SpeedLens image references passed
-```
-
-- [ ] **Step 3: Verify the privacy page is byte-for-byte unchanged from pre-task SHA**
-
-Run:
+- [ ] **Step 3: Verify privacy is unchanged**
 
 ```bash
 git hash-object speedlens/privacy-policy/index.html
@@ -385,7 +359,7 @@ Expected:
 
 - [ ] **Step 4: Verify change scope**
 
-Compare the pre-image-integration `main` commit `54a09b66b4bd43ea189f238ba7a90c286e3c77d6` to the final head. Expected implementation paths are limited to:
+Compare `54a09b66b4bd43ea189f238ba7a90c286e3c77d6` to final `main`. Implementation changes must be limited to:
 
 ```text
 speedlens/index.html
@@ -393,25 +367,26 @@ speedlens/styles.css
 speedlens/validate_site.py
 ```
 
-The plan document may also appear in the broader commit range. `alwayson/` and `speedlens/privacy-policy/index.html` must not appear as modified implementation files.
+The plan document may also appear. `alwayson/` and `speedlens/privacy-policy/index.html` must not be modified.
 
-- [ ] **Step 5: Verify both routes with a local static server**
+- [ ] **Step 5: Verify routes from a local static server**
+
+Start:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-In a second shell:
+Then run:
 
 ```bash
 set -euo pipefail
 curl --fail --silent --show-error http://127.0.0.1:8000/speedlens/ >/dev/null
 curl --fail --silent --show-error http://127.0.0.1:8000/speedlens/privacy-policy/ >/dev/null
-echo "SpeedLens routes passed"
+curl --fail --silent --show-error http://127.0.0.1:8000/speedlens/assets/hero-capture.png >/dev/null
+curl --fail --silent --show-error http://127.0.0.1:8000/speedlens/assets/review-frame.png >/dev/null
+curl --fail --silent --show-error http://127.0.0.1:8000/speedlens/assets/timestamp-output.png >/dev/null
+echo "SpeedLens routes and asset paths passed"
 ```
 
-Expected:
-
-```text
-SpeedLens routes passed
-```
+Expected: `SpeedLens routes and asset paths passed`.
