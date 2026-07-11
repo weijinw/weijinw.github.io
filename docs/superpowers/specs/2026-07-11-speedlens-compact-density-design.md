@@ -37,10 +37,13 @@ Reduce the large display type ranges:
 
 Body copy remains readable and should only be reduced slightly:
 
-- Hero, section-heading, support, and policy-intro large body copy: change to `clamp(1rem, 1.25vw, 1.12rem)`.
+- Homepage `.hero-lede`, `.section-heading > p:last-child`, and `.support-section p`: change to `clamp(1rem, 1.25vw, 1.12rem)`.
 - Story copy: change to `clamp(1rem, 1.2vw, 1.1rem)`.
+- `.policy-intro` keeps its current `clamp(1.04rem, 1.6vw, 1.2rem)` scale.
 
-The policy page is not a visual target for this pass. Shared type rules may affect its inherited `h2` only where the policy page already has a more specific override; policy-specific sizing remains unchanged.
+Because the current CSS combines homepage body-copy selectors with `.policy-intro`, split the selector rules so the homepage can compact without changing privacy-page typography.
+
+The policy page is not a visual target for this pass. Its specific heading and body typography remain unchanged.
 
 ## Hero Density
 
@@ -152,6 +155,7 @@ Extend `speedlens/validate_site.py` so the stylesheet must contain the new compa
 - `clamp(2.6rem, 4.4vw, 4.1rem)`
 - `clamp(1.9rem, 3.2vw, 3.2rem)`
 - `clamp(1.7rem, 2.5vw, 2.5rem)`
+- `clamp(1rem, 1.25vw, 1.12rem)`
 - `padding-block: clamp(40px, 5vw, 60px)`
 - `.section { padding-block: 60px; }`
 - `max-height: 560px;`
@@ -159,8 +163,9 @@ Extend `speedlens/validate_site.py` so the stylesheet must contain the new compa
 - `gap: clamp(44px, 6vw, 72px)`
 - `margin-block: 20px 60px`
 - `clamp(2.35rem, 11vw, 3.4rem)`
+- `.policy-intro { color: var(--muted); font-size: clamp(1.04rem, 1.6vw, 1.2rem); }`
 
-Validation must also guard against the obsolete density values that caused the current problem:
+Validation must also guard against the obsolete homepage density values that caused the current problem:
 
 - `min-height: min(700px, calc(100vh - 72px))`
 - `clamp(3rem, 5.4vw, 5.6rem)`
@@ -191,5 +196,5 @@ This pass does not:
 - alter poster artwork
 - add App Store links
 - add JavaScript
-- redesign the privacy page
+- change privacy-page visual typography
 - modify the AlwaysOn site
