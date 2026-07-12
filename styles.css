@@ -482,12 +482,18 @@ h3 {
   }
 
   .app-actions {
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 12px 18px;
+    width: 100%;
   }
 
-  .button {
-    width: 100%;
+  .app-actions .button {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: auto;
   }
 
   .site-footer {
