@@ -198,6 +198,11 @@ h3 {
   min-height: 320px;
 }
 
+.app-card-heartbaseline {
+  --accent: #d92d3a;
+  min-height: 320px;
+}
+
 .app-card-reverse {
   grid-template-areas: "artwork copy";
 }
@@ -324,6 +329,40 @@ h3 {
   box-shadow: none;
 }
 
+.app-card-heartbaseline .app-artwork {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  padding-inline: clamp(22px, 3vw, 42px);
+}
+
+.app-card-heartbaseline .app-artwork img {
+  width: auto;
+  height: clamp(240px, 25vw, 320px);
+  max-height: none;
+  margin-inline: clamp(-16px, -1.2vw, -8px);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  filter: drop-shadow(0 14px 18px rgba(25, 20, 20, 0.18));
+  transform-origin: 50% 62%;
+}
+
+.app-card-heartbaseline .app-artwork img:nth-child(1) {
+  z-index: 1;
+  transform: translateY(8px) rotate(-8deg);
+}
+
+.app-card-heartbaseline .app-artwork img:nth-child(2) {
+  z-index: 3;
+  transform: translateY(-8px) rotate(-1deg);
+}
+
+.app-card-heartbaseline .app-artwork img:nth-child(3) {
+  z-index: 2;
+  transform: translateY(10px) rotate(10deg);
+}
+
 .app-card-alwayson .app-artwork img {
   width: 98%;
   height: auto;
@@ -394,6 +433,10 @@ h3 {
     min-height: 200px;
   }
 
+  .app-card-heartbaseline .app-artwork {
+    min-height: 200px;
+  }
+
   .app-artwork img {
     max-height: 320px;
   }
@@ -456,12 +499,35 @@ h3 {
     min-height: 170px;
   }
 
+  .app-card-heartbaseline .app-artwork {
+    min-height: 170px;
+    padding-inline: 20px;
+  }
+
   .app-card-fitcycles .app-artwork img {
     height: 180px;
   }
 
   .app-card-speedlens .app-artwork img {
     height: 180px;
+  }
+
+  .app-card-heartbaseline .app-artwork img {
+    width: auto;
+    height: 190px;
+    margin-inline: -8px;
+  }
+
+  .app-card-heartbaseline .app-artwork img:nth-child(1) {
+    transform: translateY(5px) rotate(-6deg);
+  }
+
+  .app-card-heartbaseline .app-artwork img:nth-child(2) {
+    transform: translateY(-5px) rotate(-1deg);
+  }
+
+  .app-card-heartbaseline .app-artwork img:nth-child(3) {
+    transform: translateY(6px) rotate(7deg);
   }
 
   .app-artwork img {

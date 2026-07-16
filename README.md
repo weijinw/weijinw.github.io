@@ -10,6 +10,8 @@ This repository hosts a GitHub Pages site for a small collection of independent 
 - `/fitcycles/privacy-policy/` — FitCycles privacy policy
 - `/speedlens/` — SpeedLens product page
 - `/speedlens/privacy-policy/` — SpeedLens privacy policy
+- `/heart-baseline/` — Heart Baseline product page
+- `/heart-baseline/privacy-policy/` — Heart Baseline privacy policy
 - `/alwayson/` — AlwaysOn Desk Clock product page
 - `/alwayson/privacy-policy/` — AlwaysOn Desk Clock privacy policy
 
@@ -30,6 +32,7 @@ This repository hosts a GitHub Pages site for a small collection of independent 
 │   └── app-base.css
 ├── fitcycles/
 ├── speedlens/
+├── heart-baseline/
 ├── alwayson/
 └── scripts/
     ├── check_site.py

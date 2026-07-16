@@ -21,6 +21,11 @@ const SUPPORT_APPS = Object.freeze({
     prefix: '[AlwaysOn Support]',
     returnPath: '/alwayson/',
   }),
+  'heart-baseline': Object.freeze({
+    label: 'Heart Baseline',
+    prefix: '[Heart Baseline Support]',
+    returnPath: '/heart-baseline/',
+  }),
 });
 
 const FORM_SELECTORS = Object.freeze({
