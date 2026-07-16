@@ -18,5 +18,6 @@ Add Heart Baseline as a coming-soon app using the site's existing static HTML/CS
 - Show Heart Baseline as `Coming soon`; do not add an App Store download link yet.
 - Keep claims informational and non-diagnostic. State that Heart Baseline is not a medical device and does not provide medical advice.
 - Preserve the existing responsive, accessible, dependency-free site structure.
+- Present the root-page artwork as three original app screenshots in an overlapping fan: center screen forward and upright, left and right screens rotated outward, with reduced rotation and overlap on narrow screens. Keep the artwork area transparent so it inherits the card background.
 - Include explicit image dimensions and useful alt text.
 - Validate internal links, assets, metadata, support behavior, and responsive rendering before completion.
