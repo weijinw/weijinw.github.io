@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66SH9RSJPW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-66SH9RSJPW');
+  </script>
+  <meta name="description" content="Set up Apple Shortcuts to automatically launch AlwaysOn when your iPhone is connected to power.">
+  <meta property="og:title" content="Launch AlwaysOn when charging">
+  <meta property="og:description" content="A quick guide to opening AlwaysOn automatically when your iPhone connects to power using Apple Shortcuts.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://weijinw.github.io/alwayson/launch-when-charging/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Launch AlwaysOn when charging">
+  <meta name="twitter:description" content="Set up a Charger personal automation in Apple Shortcuts to open AlwaysOn automatically.">
+  <title>Launch AlwaysOn when charging — AlwaysOn Desk Clock</title>
+  <link rel="canonical" href="https://weijinw.github.io/alwayson/launch-when-charging/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="AlwaysOn Desk Clock home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>AlwaysOn Desk Clock</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../../">All apps</a>
+      <a href="../">Home</a>
+      <a aria-current="page" href="./">Charging Setup</a>
+      <a href="../privacy-policy/">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="guide-shell">
+    <header class="guide-hero">
+      <p class="eyebrow">Apple Shortcuts</p>
+      <h1>Launch AlwaysOn when charging.</h1>
+      <p class="guide-lede">
+        Create a personal automation that opens AlwaysOn whenever your iPhone connects to power. It takes about a minute and works with wired or wireless charging.
+      </p>
+    </header>
+
+    <section class="guide-summary" aria-label="Automation summary">
+      <div class="guide-summary-item">
+        <span>Trigger</span>
+        <strong>Charger · Is Connected</strong>
+      </div>
+      <div class="guide-summary-item">
+        <span>Action</span>
+        <strong>Open App · AlwaysOn</strong>
+      </div>
+      <div class="guide-summary-item">
+        <span>Run</span>
+        <strong>Immediately</strong>
+      </div>
+    </section>
+
+    <section class="guide-section" aria-labelledby="setup-title">
+      <div class="section-heading">
+        <p class="eyebrow">How to set up</p>
+        <h2 id="setup-title">Four quick steps.</h2>
+      </div>
+
+      <ol class="guide-steps">
+        <li class="guide-step">
+          <span class="guide-step-number" aria-hidden="true">1</span>
+          <div>
+            <h3>Open Shortcuts and choose Automation</h3>
+            <p>Open the Shortcuts app, then tap <strong>Automation</strong> at the bottom. Tap <strong>+</strong> to create a new personal automation.</p>
+          </div>
+        </li>
+        <li class="guide-step">
+          <span class="guide-step-number" aria-hidden="true">2</span>
+          <div>
+            <h3>Choose Charger</h3>
+            <p>From the list of triggers, choose <strong>Charger</strong>.</p>
+          </div>
+        </li>
+        <li class="guide-step">
+          <span class="guide-step-number" aria-hidden="true">3</span>
+          <div>
+            <h3>Select Is Connected and Run Immediately</h3>
+            <p>Select <strong>Is Connected</strong>, then set the automation to <strong>Run Immediately</strong>.</p>
+          </div>
+        </li>
+        <li class="guide-step">
+          <span class="guide-step-number" aria-hidden="true">4</span>
+          <div>
+            <h3>Add Open App and choose AlwaysOn</h3>
+            <p>Add the <strong>Open App</strong> action, select <strong>AlwaysOn</strong>, then tap <strong>Done</strong>.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="guide-section" aria-labelledby="finished-title">
+      <div class="section-heading">
+        <p class="eyebrow">Finished setup</p>
+        <h2 id="finished-title">Your automation should look like this.</h2>
+      </div>
+
+      <div class="automation-preview" aria-label="Finished automation example">
+        <div class="automation-preview-row">
+          <span>When</span>
+          <strong>iPhone is connected to power</strong>
+        </div>
+        <div class="automation-preview-row">
+          <span>Do</span>
+          <strong>Open App → AlwaysOn</strong>
+        </div>
+        <div class="automation-preview-row">
+          <span>Automation</span>
+          <strong>Run Immediately</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide-callout" aria-labelledby="troubleshooting-title">
+      <div>
+        <p class="eyebrow">Troubleshooting</p>
+        <h2 id="troubleshooting-title">If it does not launch</h2>
+        <ul>
+          <li>Confirm the automation is set to <strong>Run Immediately</strong>.</li>
+          <li>Open the action and confirm <strong>AlwaysOn</strong> is the selected app.</li>
+          <li>Disconnect power, wait a few seconds, then reconnect to test it.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="guide-actions">
+      <a class="button button-primary" href="../">Back to AlwaysOn</a>
+      <a class="button button-secondary" href="../../support/?app=alwayson">Get support</a>
+    </div>
+  </main>
+
+  <footer class="site-footer shell">
+    <p>AlwaysOn Desk Clock</p>
+    <div class="footer-links">
+      <a href="../">Home</a>
+      <a href="../../support/?app=alwayson">Support</a>
+      <a href="../privacy-policy/">Privacy Policy</a>
+    </div>
+  </footer>
+</body>
+</html>
