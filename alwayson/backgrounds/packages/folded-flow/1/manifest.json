@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "id": "folded-flow",
+  "version": 1,
+  "title": "Folded Flow",
+  "foregroundColors": [
+    "#DCE6FF",
+    "#AFC3F3",
+    "#8E9FE5",
+    "#A5A0E8",
+    "#C0B2F4"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "FoldedFlowLandscape0",
+      "fileName": "FoldedFlowLandscape0.png",
+      "url": "assets/FoldedFlowLandscape0.png"
+    },
+    {
+      "name": "FoldedFlowPortrait0",
+      "fileName": "FoldedFlowPortrait0.png",
+      "url": "assets/FoldedFlowPortrait0.png"
+    },
+    {
+      "name": "FoldedFlowLandscape1",
+      "fileName": "FoldedFlowLandscape1.png",
+      "url": "assets/FoldedFlowLandscape1.png"
+    },
+    {
+      "name": "FoldedFlowPortrait1",
+      "fileName": "FoldedFlowPortrait1.png",
+      "url": "assets/FoldedFlowPortrait1.png"
+    }
+  ]
+}

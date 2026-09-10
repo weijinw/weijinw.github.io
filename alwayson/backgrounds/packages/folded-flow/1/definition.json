@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "id": "folded-flow",
+  "animation": {
+    "speedActive": 1.0,
+    "speedIdle": 0.34,
+    "speedDeepIdle": 0.07,
+    "energyActive": 1.0,
+    "energyIdle": 0.38,
+    "energyDeepIdle": 0.10,
+    "fpsActive": 30.0,
+    "fpsIdle": 12.0
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "FoldedFlowLandscape0",
+          "portrait": "FoldedFlowPortrait0"
+        },
+        "holdDuration": 0.0,
+        "motion": {
+          "baseScale": 1.012,
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0018,
+          "xPeriod": 96.0,
+          "yPeriod": 118.0,
+          "scalePeriod": 142.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
+        },
+        "transitionToNext": {
+          "duration": 9.0,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "FoldedFlowLandscape1",
+          "portrait": "FoldedFlowPortrait1"
+        },
+        "holdDuration": 0.0,
+        "motion": {
+          "baseScale": 1.012,
+          "xAmplitude": 2.0,
+          "yAmplitude": 1.5,
+          "scaleAmplitude": 0.0018,
+          "xPeriod": 103.0,
+          "yPeriod": 127.0,
+          "scalePeriod": 153.0,
+          "xPhase": 1.1,
+          "yPhase": 2.37,
+          "scalePhase": 1.1
+        },
+        "transitionToNext": {
+          "duration": 9.0,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [],
+  "appearance": {
+    "topDarkening": 0.04,
+    "bottomDarkening": 0.10,
+    "readabilityOverlay": null
+  }
+}
