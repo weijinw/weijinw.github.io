@@ -1,0 +1,56 @@
+{
+  "formatVersion": 1,
+  "id": "abyss-bloom",
+  "version": 1,
+  "title": "Abyss Bloom",
+  "foregroundColors": [
+    "#64DFDF",
+    "#48BFE3",
+    "#5E60CE",
+    "#9B5DE5",
+    "#F15BB5"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "AbyssBloomLandscape",
+      "fileName": "AbyssBloomLandscape.png",
+      "url": "assets/AbyssBloomLandscape.png"
+    },
+    {
+      "name": "AbyssBloomPortrait",
+      "fileName": "AbyssBloomPortrait.png",
+      "url": "assets/AbyssBloomPortrait.png"
+    },
+    {
+      "name": "AbyssBloomLandscape1",
+      "fileName": "AbyssBloomLandscape1.png",
+      "url": "assets/AbyssBloomLandscape1.png"
+    },
+    {
+      "name": "AbyssBloomPortrait1",
+      "fileName": "AbyssBloomPortrait1.png",
+      "url": "assets/AbyssBloomPortrait1.png"
+    },
+    {
+      "name": "AbyssBloomLandscape2",
+      "fileName": "AbyssBloomLandscape2.png",
+      "url": "assets/AbyssBloomLandscape2.png"
+    },
+    {
+      "name": "AbyssBloomPortrait2",
+      "fileName": "AbyssBloomPortrait2.png",
+      "url": "assets/AbyssBloomPortrait2.png"
+    },
+    {
+      "name": "AbyssBloomLandscape3",
+      "fileName": "AbyssBloomLandscape3.png",
+      "url": "assets/AbyssBloomLandscape3.png"
+    },
+    {
+      "name": "AbyssBloomPortrait3",
+      "fileName": "AbyssBloomPortrait3.png",
+      "url": "assets/AbyssBloomPortrait3.png"
+    }
+  ]
+}

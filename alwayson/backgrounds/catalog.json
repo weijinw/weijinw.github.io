@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "backgrounds": [
+    {
+      "id": "abyss-bloom",
+      "version": 1,
+      "title": "Abyss Bloom",
+      "category": "abstract",
+      "previewURL": "packages/abyss-bloom/1/assets/AbyssBloomLandscape.png",
+      "manifestURL": "packages/abyss-bloom/1/manifest.json"
+    },
+    {
+      "id": "folded-flow",
+      "version": 1,
+      "title": "Folded Flow",
+      "category": "abstract",
+      "previewURL": "packages/folded-flow/1/assets/FoldedFlowLandscape0.png",
+      "manifestURL": "packages/folded-flow/1/manifest.json"
+    }
+  ]
+}
