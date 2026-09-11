@@ -21,18 +21,18 @@
         "holdDuration": 0.0,
         "motion": {
           "baseScale": 1.02,
-          "xAmplitude": 3.2,
-          "yAmplitude": 2.4,
-          "scaleAmplitude": 0.003,
-          "xPeriod": 96.0,
-          "yPeriod": 118.0,
-          "scalePeriod": 140.0,
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
           "xPhase": 0.0,
           "yPhase": 1.57,
           "scalePhase": 0.5
         },
         "transitionToNext": {
-          "duration": 9.0,
+          "duration": 5.0,
           "easing": "easeInOut",
           "style": {
             "crossfade": {}
@@ -47,18 +47,18 @@
         "holdDuration": 0.0,
         "motion": {
           "baseScale": 1.02,
-          "xAmplitude": 3.6,
-          "yAmplitude": 2.6,
-          "scaleAmplitude": 0.003,
-          "xPeriod": 103.0,
-          "yPeriod": 125.0,
-          "scalePeriod": 149.0,
-          "xPhase": 0.9,
-          "yPhase": 2.15,
-          "scalePhase": 1.1
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
         },
         "transitionToNext": {
-          "duration": 9.0,
+          "duration": 6.0,
           "easing": "easeInOut",
           "style": {
             "crossfade": {}
@@ -70,21 +70,21 @@
           "landscape": "AbyssBloomLandscape2",
           "portrait": "AbyssBloomPortrait2"
         },
-        "holdDuration": 0.0,
+        "holdDuration": 2.0,
         "motion": {
           "baseScale": 1.02,
-          "xAmplitude": 3.0,
-          "yAmplitude": 2.8,
-          "scaleAmplitude": 0.0028,
-          "xPeriod": 111.0,
-          "yPeriod": 132.0,
-          "scalePeriod": 156.0,
-          "xPhase": 1.8,
-          "yPhase": 2.9,
-          "scalePhase": 1.8
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
         },
         "transitionToNext": {
-          "duration": 9.0,
+          "duration": 8.0,
           "easing": "easeInOut",
           "style": {
             "crossfade": {}
@@ -96,21 +96,21 @@
           "landscape": "AbyssBloomLandscape3",
           "portrait": "AbyssBloomPortrait3"
         },
-        "holdDuration": 0.0,
+        "holdDuration": 1.0,
         "motion": {
           "baseScale": 1.02,
-          "xAmplitude": 3.4,
-          "yAmplitude": 2.2,
-          "scaleAmplitude": 0.0028,
-          "xPeriod": 101.0,
-          "yPeriod": 121.0,
-          "scalePeriod": 146.0,
-          "xPhase": 2.7,
-          "yPhase": 3.65,
-          "scalePhase": 2.5
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
         },
         "transitionToNext": {
-          "duration": 9.0,
+          "duration": 3.0,
           "easing": "easeInOut",
           "style": {
             "crossfade": {}
