@@ -26,41 +26,42 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Inspect Abyss Bloom PNG dimensions
+      - name: Inspect Abyss Bloom PNG dimensions and preview
         run: |
+          python3 -m pip install --quiet pillow
           python3 - <<'PY'
-          import struct
+          import base64, io, struct
           from pathlib import Path
+          from PIL import Image, ImageOps, ImageDraw
           root = Path('alwayson/backgrounds/packages/abyss-bloom/1/assets')
-          for p in sorted(root.glob('AbyssBloom*.png')):
+          paths = [
+              root/'AbyssBloomLandscape.png', root/'AbyssBloomLandscape1.png',
+              root/'AbyssBloomLandscape2.png', root/'AbyssBloomLandscape3.png',
+              root/'AbyssBloomPortrait.png', root/'AbyssBloomPortrait1.png',
+              root/'AbyssBloomPortrait2.png', root/'AbyssBloomPortrait3.png',
+          ]
+          for p in paths:
               data = p.read_bytes()[:24]
-              if data[:8] != b'\x89PNG\r\n\x1a\n':
-                  print(f'{p.name}: not PNG')
-                  continue
               w, h = struct.unpack('>II', data[16:24])
               print(f'ABYSS_DIM {p.name} {w}x{h}')
-          PY
 
-      - name: Preview Abyss Bloom source composition
-        run: |
-          if command -v montage >/dev/null 2>&1; then
-            montage alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape1.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape2.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape3.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait1.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait2.png \
-                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait3.png \
-                    -thumbnail '220x220>' -tile 4x2 -geometry +4+4 -background '#111318' \
-                    /tmp/abyss-source.jpg
-            echo 'ABYSS_PREVIEW_BASE64_BEGIN'
-            base64 -w0 /tmp/abyss-source.jpg
-            echo
-            echo 'ABYSS_PREVIEW_BASE64_END'
-          else
-            echo 'ImageMagick montage unavailable'
-          fi
+          cell_w, cell_h = 300, 240
+          canvas = Image.new('RGB', (cell_w*4, cell_h*2), '#111318')
+          draw = ImageDraw.Draw(canvas)
+          for i, p in enumerate(paths):
+              with Image.open(p) as im:
+                  im = im.convert('RGB')
+                  im.thumbnail((cell_w-12, cell_h-36), Image.Resampling.LANCZOS)
+                  x = (i % 4)*cell_w + (cell_w-im.width)//2
+                  y = (i // 4)*cell_h + 4
+                  canvas.paste(im, (x, y))
+                  draw.text(((i%4)*cell_w+8, (i//4)*cell_h+cell_h-26), p.stem, fill='white')
+          buf = io.BytesIO()
+          canvas.save(buf, format='JPEG', quality=55, optimize=True)
+          print('ABYSS_PREVIEW_BASE64_BEGIN')
+          print(base64.b64encode(buf.getvalue()).decode('ascii'))
+          print('ABYSS_PREVIEW_BASE64_END')
+          PY
 
       - name: Validate static site
         run: python3 scripts/check_site.py
