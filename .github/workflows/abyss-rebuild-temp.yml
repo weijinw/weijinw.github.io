@@ -1,16 +1,16 @@
 name: Temporary Abyss Bloom rebuild
 
 on:
-  push:
+  pull_request:
     branches:
-      - fix/abyss-bloom-source-derived
+      - main
 
 permissions:
   contents: write
 
 jobs:
   rebuild:
-    if: ${{ !contains(github.event.head_commit.message, '[abyss-generated]') }}
+    if: ${{ github.head_ref == 'fix/abyss-bloom-source-derived' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out rebuild branch
