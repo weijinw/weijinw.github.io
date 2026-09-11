@@ -41,6 +41,27 @@ jobs:
               print(f'ABYSS_DIM {p.name} {w}x{h}')
           PY
 
+      - name: Preview Abyss Bloom source composition
+        run: |
+          if command -v montage >/dev/null 2>&1; then
+            montage alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape1.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape2.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomLandscape3.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait1.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait2.png \
+                    alwayson/backgrounds/packages/abyss-bloom/1/assets/AbyssBloomPortrait3.png \
+                    -thumbnail '220x220>' -tile 4x2 -geometry +4+4 -background '#111318' \
+                    /tmp/abyss-source.jpg
+            echo 'ABYSS_PREVIEW_BASE64_BEGIN'
+            base64 -w0 /tmp/abyss-source.jpg
+            echo
+            echo 'ABYSS_PREVIEW_BASE64_END'
+          else
+            echo 'ImageMagick montage unavailable'
+          fi
+
       - name: Validate static site
         run: python3 scripts/check_site.py
 
