@@ -48,13 +48,17 @@ A useful review test is to compare normalized flower edges between frame 0 and f
 
 ## Timing
 
-The package metadata uses this approximate rhythm:
+The package metadata uses a slower ambient rhythm so the geometric opening does not feel busy:
 
-- Frame 0 → 1: 5 s
-- Frame 1 → 2: 6 s
-- Frame 2 hold: 2 s
-- Frame 2 → 3: 8 s
-- Frame 3 hold: 1 s
-- Frame 3 → 0: 3 s
+- Frame 0 closed hold: 8 s
+- Frame 0 → 1: 8 s
+- Frame 1 hold: 2 s
+- Frame 1 → 2: 10 s
+- Frame 2 full-bloom hold: 10 s
+- Frame 2 → 3: 10 s
+- Frame 3 hold: 2 s
+- Frame 3 → 0: 8 s
+
+The active loop is approximately 58 seconds. Idle and deep-idle modes slow that base rhythm further through the existing animation speed multipliers.
 
 Motion metadata is intentionally identical across frames so crossfades do not add independent camera drift on top of the bloom animation.

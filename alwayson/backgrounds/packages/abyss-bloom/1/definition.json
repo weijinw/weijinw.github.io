@@ -18,59 +18,7 @@
           "landscape": "AbyssBloomLandscape",
           "portrait": "AbyssBloomPortrait"
         },
-        "holdDuration": 0.0,
-        "motion": {
-          "baseScale": 1.02,
-          "xAmplitude": 1.6,
-          "yAmplitude": 1.2,
-          "scaleAmplitude": 0.0015,
-          "xPeriod": 120.0,
-          "yPeriod": 150.0,
-          "scalePeriod": 180.0,
-          "xPhase": 0.0,
-          "yPhase": 1.57,
-          "scalePhase": 0.5
-        },
-        "transitionToNext": {
-          "duration": 5.0,
-          "easing": "easeInOut",
-          "style": {
-            "crossfade": {}
-          }
-        }
-      },
-      {
-        "asset": {
-          "landscape": "AbyssBloomLandscape1",
-          "portrait": "AbyssBloomPortrait1"
-        },
-        "holdDuration": 0.0,
-        "motion": {
-          "baseScale": 1.02,
-          "xAmplitude": 1.6,
-          "yAmplitude": 1.2,
-          "scaleAmplitude": 0.0015,
-          "xPeriod": 120.0,
-          "yPeriod": 150.0,
-          "scalePeriod": 180.0,
-          "xPhase": 0.0,
-          "yPhase": 1.57,
-          "scalePhase": 0.5
-        },
-        "transitionToNext": {
-          "duration": 6.0,
-          "easing": "easeInOut",
-          "style": {
-            "crossfade": {}
-          }
-        }
-      },
-      {
-        "asset": {
-          "landscape": "AbyssBloomLandscape2",
-          "portrait": "AbyssBloomPortrait2"
-        },
-        "holdDuration": 2.0,
+        "holdDuration": 8.0,
         "motion": {
           "baseScale": 1.02,
           "xAmplitude": 1.6,
@@ -93,10 +41,10 @@
       },
       {
         "asset": {
-          "landscape": "AbyssBloomLandscape3",
-          "portrait": "AbyssBloomPortrait3"
+          "landscape": "AbyssBloomLandscape1",
+          "portrait": "AbyssBloomPortrait1"
         },
-        "holdDuration": 1.0,
+        "holdDuration": 2.0,
         "motion": {
           "baseScale": 1.02,
           "xAmplitude": 1.6,
@@ -110,7 +58,59 @@
           "scalePhase": 0.5
         },
         "transitionToNext": {
-          "duration": 3.0,
+          "duration": 10.0,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "AbyssBloomLandscape2",
+          "portrait": "AbyssBloomPortrait2"
+        },
+        "holdDuration": 10.0,
+        "motion": {
+          "baseScale": 1.02,
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
+        },
+        "transitionToNext": {
+          "duration": 10.0,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "AbyssBloomLandscape3",
+          "portrait": "AbyssBloomPortrait3"
+        },
+        "holdDuration": 2.0,
+        "motion": {
+          "baseScale": 1.02,
+          "xAmplitude": 1.6,
+          "yAmplitude": 1.2,
+          "scaleAmplitude": 0.0015,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 1.57,
+          "scalePhase": 0.5
+        },
+        "transitionToNext": {
+          "duration": 8.0,
           "easing": "easeInOut",
           "style": {
             "crossfade": {}
