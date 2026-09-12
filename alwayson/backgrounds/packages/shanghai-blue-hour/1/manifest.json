@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "shanghai-blue-hour",
+  "version": 1,
+  "title": "Shanghai Blue Hour",
+  "foregroundColors": [
+    "#F6F2FF",
+    "#E7C8FF",
+    "#6CC8FF",
+    "#FFC35A",
+    "#FFFFFF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "ShanghaiBlueHourLandscape",
+      "fileName": "ShanghaiBlueHourLandscape.png",
+      "url": "assets/ShanghaiBlueHourLandscape.png"
+    },
+    {
+      "name": "ShanghaiBlueHourPortrait",
+      "fileName": "ShanghaiBlueHourPortrait.png",
+      "url": "assets/ShanghaiBlueHourPortrait.png"
+    }
+  ]
+}

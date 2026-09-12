@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "toronto-night",
+  "version": 1,
+  "title": "Toronto Night",
+  "foregroundColors": [
+    "#FFF7F3",
+    "#F5D6F2",
+    "#C9D7FF",
+    "#F7C36B",
+    "#FFFFFF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "TorontoNightLandscape",
+      "fileName": "TorontoNightLandscape.jpg",
+      "url": "assets/TorontoNightLandscape.jpg"
+    },
+    {
+      "name": "TorontoNightPortrait",
+      "fileName": "TorontoNightPortrait.jpg",
+      "url": "assets/TorontoNightPortrait.jpg"
+    }
+  ]
+}
