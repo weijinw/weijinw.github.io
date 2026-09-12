@@ -1,0 +1,50 @@
+{
+  "formatVersion": 1,
+  "id": "toronto-night",
+  "animation": {
+    "speedActive": 1.0,
+    "speedIdle": 0.35,
+    "speedDeepIdle": 0.08,
+    "energyActive": 1.0,
+    "energyIdle": 0.35,
+    "energyDeepIdle": 0.08,
+    "fpsActive": 30.0,
+    "fpsIdle": 12.0
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "TorontoNightLandscape",
+          "portrait": "TorontoNightPortrait"
+        },
+        "holdDuration": 60.0,
+        "motion": {
+          "baseScale": 1.0,
+          "xAmplitude": 0.0,
+          "yAmplitude": 0.0,
+          "scaleAmplitude": 0.0,
+          "xPeriod": 120.0,
+          "yPeriod": 150.0,
+          "scalePeriod": 180.0,
+          "xPhase": 0.0,
+          "yPhase": 0.0,
+          "scalePhase": 0.0
+        },
+        "transitionToNext": {
+          "duration": 30.0,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [],
+  "appearance": {
+    "topDarkening": 0.02,
+    "bottomDarkening": 0.06,
+    "readabilityOverlay": null
+  }
+}
