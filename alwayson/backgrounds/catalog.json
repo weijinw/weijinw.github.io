@@ -16,6 +16,14 @@
       "category": "abstract",
       "previewURL": "packages/folded-flow/1/assets/FoldedFlowLandscape0.png",
       "manifestURL": "packages/folded-flow/1/manifest.json"
+    },
+    {
+      "id": "toronto-night",
+      "version": 1,
+      "title": "Toronto Night",
+      "category": "places",
+      "previewURL": "packages/toronto-night/1/assets/TorontoNightLandscape.jpg",
+      "manifestURL": "packages/toronto-night/1/manifest.json"
     }
   ]
 }
