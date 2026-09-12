@@ -24,6 +24,14 @@
       "category": "places",
       "previewURL": "packages/toronto-night/1/assets/TorontoNightLandscape.jpg",
       "manifestURL": "packages/toronto-night/1/manifest.json"
+    },
+    {
+      "id": "shanghai-blue-hour",
+      "version": 1,
+      "title": "Shanghai Blue Hour",
+      "category": "places",
+      "previewURL": "packages/shanghai-blue-hour/1/assets/ShanghaiBlueHourLandscape.png",
+      "manifestURL": "packages/shanghai-blue-hour/1/manifest.json"
     }
   ]
 }
