@@ -32,6 +32,14 @@
       "category": "places",
       "previewURL": "packages/shanghai-blue-hour/1/assets/ShanghaiBlueHourLandscape.png",
       "manifestURL": "packages/shanghai-blue-hour/1/manifest.json"
+    },
+    {
+      "id": "ancient-mosaic",
+      "version": 1,
+      "title": "Ancient Mosaic",
+      "category": "abstract",
+      "previewURL": "packages/ancient-mosaic/1/assets/AncientMosaicLandscape.png",
+      "manifestURL": "packages/ancient-mosaic/1/manifest.json"
     }
   ]
 }
