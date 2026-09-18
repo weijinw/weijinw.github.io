@@ -4,11 +4,11 @@
   "version": 1,
   "title": "Ancient Mosaic",
   "foregroundColors": [
-    "#1F2527",
-    "#354A50",
-    "#5D6F68",
-    "#6B5E4E",
-    "#111111"
+    "#40555A",
+    "#526B70",
+    "#657B73",
+    "#806C59",
+    "#9A7A58"
   ],
   "definitionURL": "definition.json",
   "assets": [
