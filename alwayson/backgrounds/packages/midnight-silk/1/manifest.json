@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "midnight-silk",
+  "version": 1,
+  "title": "Midnight Silk",
+  "foregroundColors": [
+    "#FFF8EF",
+    "#F2E8DC",
+    "#D8CEC3",
+    "#BDB4AA",
+    "#FFFFFF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "MidnightSilkLandscape",
+      "fileName": "MidnightSilkLandscape.png",
+      "url": "assets/MidnightSilkLandscape.png"
+    },
+    {
+      "name": "MidnightSilkPortrait",
+      "fileName": "MidnightSilkPortrait.png",
+      "url": "assets/MidnightSilkPortrait.png"
+    }
+  ]
+}
