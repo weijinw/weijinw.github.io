@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "crimson-flow",
+  "version": 1,
+  "title": "Crimson Flow",
+  "foregroundColors": [
+    "#FFF2F4",
+    "#FFD7DE",
+    "#FF9CAD",
+    "#FF647C",
+    "#FF3B5C"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "CrimsonFlowLandscape",
+      "fileName": "CrimsonFlowLandscape.png",
+      "url": "assets/CrimsonFlowLandscape.png"
+    },
+    {
+      "name": "CrimsonFlowPortrait",
+      "fileName": "CrimsonFlowPortrait.png",
+      "url": "assets/CrimsonFlowPortrait.png"
+    }
+  ]
+}
