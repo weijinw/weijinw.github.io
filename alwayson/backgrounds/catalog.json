@@ -32,6 +32,30 @@
       "category": "places",
       "previewURL": "packages/shanghai-blue-hour/1/assets/ShanghaiBlueHourLandscape.png",
       "manifestURL": "packages/shanghai-blue-hour/1/manifest.json"
+    },
+    {
+      "id": "ancient-mosaic",
+      "version": 1,
+      "title": "Ancient Mosaic",
+      "category": "abstract",
+      "previewURL": "packages/ancient-mosaic/1/assets/AncientMosaicLandscape.png",
+      "manifestURL": "packages/ancient-mosaic/1/manifest.json"
+    },
+    {
+      "id": "crimson-flow",
+      "version": 1,
+      "title": "Crimson Flow",
+      "category": "abstract",
+      "previewURL": "packages/crimson-flow/1/assets/CrimsonFlowLandscape.png",
+      "manifestURL": "packages/crimson-flow/1/manifest.json"
+    },
+    {
+      "id": "midnight-silk",
+      "version": 1,
+      "title": "Midnight Silk",
+      "category": "abstract",
+      "previewURL": "packages/midnight-silk/1/assets/MidnightSilkLandscape.png",
+      "manifestURL": "packages/midnight-silk/1/manifest.json"
     }
   ]
 }

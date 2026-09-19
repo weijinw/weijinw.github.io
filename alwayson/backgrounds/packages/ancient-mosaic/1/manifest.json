@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "ancient-mosaic",
+  "version": 1,
+  "title": "Ancient Mosaic",
+  "foregroundColors": [
+    "#FAF3E8",
+    "#F3D198",
+    "#E2AC68",
+    "#9FC3B2",
+    "#E0937A"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "AncientMosaicLandscape",
+      "fileName": "AncientMosaicLandscape.png",
+      "url": "assets/AncientMosaicLandscape.png"
+    },
+    {
+      "name": "AncientMosaicPortrait",
+      "fileName": "AncientMosaicPortrait.png",
+      "url": "assets/AncientMosaicPortrait.png"
+    }
+  ]
+}
