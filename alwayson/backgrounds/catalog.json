@@ -37,7 +37,7 @@
       "id": "ancient-mosaic",
       "version": 1,
       "title": "Ancient Mosaic",
-      "category": "abstract",
+      "category": "places",
       "previewURL": "packages/ancient-mosaic/1/assets/AncientMosaicLandscape.png",
       "manifestURL": "packages/ancient-mosaic/1/manifest.json"
     },
