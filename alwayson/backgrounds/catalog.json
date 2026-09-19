@@ -40,6 +40,14 @@
       "category": "abstract",
       "previewURL": "packages/ancient-mosaic/1/assets/AncientMosaicLandscape.png",
       "manifestURL": "packages/ancient-mosaic/1/manifest.json"
+    },
+    {
+      "id": "crimson-flow",
+      "version": 1,
+      "title": "Crimson Flow",
+      "category": "abstract",
+      "previewURL": "packages/crimson-flow/1/assets/CrimsonFlowLandscape.png",
+      "manifestURL": "packages/crimson-flow/1/manifest.json"
     }
   ]
 }
