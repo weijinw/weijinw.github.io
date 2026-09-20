@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "obsidian-ridges",
+  "version": 1,
+  "title": "Obsidian Ridges",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#E8E8E8",
+    "#CFCFCF",
+    "#B8B8B8",
+    "#F5F5F5"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "ObsidianRidgesLandscape",
+      "fileName": "ObsidianRidgesLandscape.png",
+      "url": "assets/ObsidianRidgesLandscape.png"
+    },
+    {
+      "name": "ObsidianRidgesPortrait",
+      "fileName": "ObsidianRidgesPortrait.png",
+      "url": "assets/ObsidianRidgesPortrait.png"
+    }
+  ]
+}

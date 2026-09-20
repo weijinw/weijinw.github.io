@@ -56,6 +56,22 @@
       "category": "abstract",
       "previewURL": "packages/midnight-silk/1/assets/MidnightSilkLandscape.png",
       "manifestURL": "packages/midnight-silk/1/manifest.json"
+    },
+    {
+      "id": "liquid-crown",
+      "version": 1,
+      "title": "Liquid Crown",
+      "category": "abstract",
+      "previewURL": "packages/liquid-crown/1/assets/LiquidCrownLandscape.png",
+      "manifestURL": "packages/liquid-crown/1/manifest.json"
+    },
+    {
+      "id": "obsidian-ridges",
+      "version": 1,
+      "title": "Obsidian Ridges",
+      "category": "abstract",
+      "previewURL": "packages/obsidian-ridges/1/assets/ObsidianRidgesLandscape.png",
+      "manifestURL": "packages/obsidian-ridges/1/manifest.json"
     }
   ]
 }
