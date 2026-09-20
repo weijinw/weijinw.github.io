@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "liquid-crown",
+  "version": 1,
+  "title": "Liquid Crown",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#E8EDF2",
+    "#C7D0D8",
+    "#AAB4BE",
+    "#F5F7FA"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "LiquidCrownLandscape",
+      "fileName": "LiquidCrownLandscape.png",
+      "url": "assets/LiquidCrownLandscape.png"
+    },
+    {
+      "name": "LiquidCrownPortrait",
+      "fileName": "LiquidCrownPortrait.png",
+      "url": "assets/LiquidCrownPortrait.png"
+    }
+  ]
+}
