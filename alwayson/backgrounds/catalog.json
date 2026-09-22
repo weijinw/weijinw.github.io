@@ -42,6 +42,14 @@
       "manifestURL": "packages/ancient-mosaic/1/manifest.json"
     },
     {
+      "id": "sydney-harbour",
+      "version": 1,
+      "title": "Sydney Harbour",
+      "category": "places",
+      "previewURL": "packages/sydney-harbour/1/assets/SydneyHarbourLandscape.png",
+      "manifestURL": "packages/sydney-harbour/1/manifest.json"
+    },
+    {
       "id": "crimson-flow",
       "version": 1,
       "title": "Crimson Flow",
