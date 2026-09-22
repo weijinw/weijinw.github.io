@@ -1,0 +1,50 @@
+{
+  "formatVersion": 1,
+  "id": "sydney-harbour",
+  "animation": {
+    "speedActive": 1,
+    "speedIdle": 0.35,
+    "speedDeepIdle": 0.08,
+    "energyActive": 1,
+    "energyIdle": 0.35,
+    "energyDeepIdle": 0.08,
+    "fpsActive": 30,
+    "fpsIdle": 12
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "SydneyHarbourLandscape",
+          "portrait": "SydneyHarbourPortrait"
+        },
+        "holdDuration": 60,
+        "motion": {
+          "baseScale": 1,
+          "xAmplitude": 0,
+          "yAmplitude": 0,
+          "scaleAmplitude": 0,
+          "xPeriod": 120,
+          "yPeriod": 150,
+          "scalePeriod": 180,
+          "xPhase": 0,
+          "yPhase": 0,
+          "scalePhase": 0
+        },
+        "transitionToNext": {
+          "duration": 30,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [],
+  "appearance": {
+    "topDarkening": 0.02,
+    "bottomDarkening": 0.06,
+    "readabilityOverlay": null
+  }
+}
