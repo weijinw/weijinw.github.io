@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "yosemite-night",
+  "version": 1,
+  "title": "Yosemite Night",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#D9E6FF",
+    "#B9C9E8",
+    "#9AAFD1",
+    "#E7EEF8"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "YosemiteNightLandscape",
+      "fileName": "YosemiteNightLandscape.png",
+      "url": "assets/YosemiteNightLandscape.png"
+    },
+    {
+      "name": "YosemiteNightPortrait",
+      "fileName": "YosemiteNightPortrait.png",
+      "url": "assets/YosemiteNightPortrait.png"
+    }
+  ]
+}
