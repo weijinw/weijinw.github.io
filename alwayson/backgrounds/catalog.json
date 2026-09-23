@@ -50,6 +50,22 @@
       "manifestURL": "packages/sydney-harbour/1/manifest.json"
     },
     {
+      "id": "yosemite-night",
+      "version": 1,
+      "title": "Yosemite Night",
+      "category": "places",
+      "previewURL": "packages/yosemite-night/1/assets/YosemiteNightLandscape.png",
+      "manifestURL": "packages/yosemite-night/1/manifest.json"
+    },
+    {
+      "id": "chongqing-night",
+      "version": 1,
+      "title": "Chongqing Night",
+      "category": "places",
+      "previewURL": "packages/chongqing-night/1/assets/ChongqingNightLandscape.png",
+      "manifestURL": "packages/chongqing-night/1/manifest.json"
+    },
+    {
       "id": "crimson-flow",
       "version": 1,
       "title": "Crimson Flow",
