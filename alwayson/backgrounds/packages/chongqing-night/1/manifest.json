@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "chongqing-night",
+  "version": 1,
+  "title": "Chongqing Night",
+  "foregroundColors": [
+    "#FFF5E6",
+    "#FFD6A0",
+    "#F3B36B",
+    "#C8D8F0",
+    "#FFFFFF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "ChongqingNightLandscape",
+      "fileName": "ChongqingNightLandscape.png",
+      "url": "assets/ChongqingNightLandscape.png"
+    },
+    {
+      "name": "ChongqingNightPortrait",
+      "fileName": "ChongqingNightPortrait.png",
+      "url": "assets/ChongqingNightPortrait.png"
+    }
+  ]
+}
