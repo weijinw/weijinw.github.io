@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "sydney-harbour",
+  "version": 1,
+  "title": "Sydney Harbour",
+  "foregroundColors": [
+    "#FFF7E8",
+    "#F2D2A2",
+    "#C9D7FF",
+    "#AFC7E8",
+    "#FFFFFF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "SydneyHarbourLandscape",
+      "fileName": "SydneyHarbourLandscape.png",
+      "url": "assets/SydneyHarbourLandscape.png"
+    },
+    {
+      "name": "SydneyHarbourPortrait",
+      "fileName": "SydneyHarbourPortrait.png",
+      "url": "assets/SydneyHarbourPortrait.png"
+    }
+  ]
+}
