@@ -96,6 +96,38 @@
       "category": "abstract",
       "previewURL": "packages/obsidian-ridges/1/assets/ObsidianRidgesLandscape.png",
       "manifestURL": "packages/obsidian-ridges/1/manifest.json"
+    },
+    {
+      "id": "aurora-drift",
+      "version": 1,
+      "title": "Aurora Drift",
+      "category": "nature",
+      "previewURL": "packages/aurora-drift/1/assets/AuroraArc.png",
+      "manifestURL": "packages/aurora-drift/1/manifest.json"
+    },
+    {
+      "id": "galaxy-drift",
+      "version": 1,
+      "title": "Galaxy Drift",
+      "category": "space",
+      "previewURL": "packages/galaxy-drift/1/assets/GalaxyBlue.png",
+      "manifestURL": "packages/galaxy-drift/1/manifest.json"
+    },
+    {
+      "id": "ink-wash-serenity",
+      "version": 1,
+      "title": "Ink Wash Serenity",
+      "category": "art",
+      "previewURL": "packages/ink-wash-serenity/1/assets/InkWashMountain.png",
+      "manifestURL": "packages/ink-wash-serenity/1/manifest.json"
+    },
+    {
+      "id": "san-francisco-twilight",
+      "version": 1,
+      "title": "San Francisco Twilight",
+      "category": "places",
+      "previewURL": "packages/san-francisco-twilight/1/assets/SanFranciscoBridge.png",
+      "manifestURL": "packages/san-francisco-twilight/1/manifest.json"
     }
   ]
 }

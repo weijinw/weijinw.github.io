@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "id": "ink-wash-serenity",
+  "version": 1,
+  "title": "Ink Wash Serenity",
+  "foregroundColors": [
+    "#E4E0D5",
+    "#B8BBB5",
+    "#9FB0AA",
+    "#8FA5B0",
+    "#B9A68D"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "InkWashFlow",
+      "fileName": "InkWashFlow.png",
+      "url": "assets/InkWashFlow.png"
+    },
+    {
+      "name": "InkWashFlowPortrait",
+      "fileName": "InkWashFlowPortrait.png",
+      "url": "assets/InkWashFlowPortrait.png"
+    },
+    {
+      "name": "InkWashMountain",
+      "fileName": "InkWashMountain.png",
+      "url": "assets/InkWashMountain.png"
+    },
+    {
+      "name": "InkWashMountainPortrait",
+      "fileName": "InkWashMountainPortrait.png",
+      "url": "assets/InkWashMountainPortrait.png"
+    },
+    {
+      "name": "InkWashStill",
+      "fileName": "InkWashStill.png",
+      "url": "assets/InkWashStill.png"
+    },
+    {
+      "name": "InkWashStillPortrait",
+      "fileName": "InkWashStillPortrait.png",
+      "url": "assets/InkWashStillPortrait.png"
+    }
+  ]
+}

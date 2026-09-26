@@ -1,0 +1,102 @@
+{
+  "formatVersion": 1,
+  "id": "aurora-drift",
+  "animation": {
+    "speedActive": 1,
+    "speedIdle": 0.42,
+    "speedDeepIdle": 0.1,
+    "energyActive": 1,
+    "energyIdle": 0.5,
+    "energyDeepIdle": 0.18,
+    "fpsActive": 30,
+    "fpsIdle": 12
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "AuroraArc",
+          "portrait": "AuroraArcPortrait"
+        },
+        "holdDuration": 0,
+        "motion": {
+          "baseScale": 1.025,
+          "xAmplitude": 5,
+          "yAmplitude": 3,
+          "scaleAmplitude": 0.004,
+          "xPeriod": 100.53096491487338,
+          "yPeriod": 125.66370614359172,
+          "scalePeriod": 150.79644737231007,
+          "xPhase": 0,
+          "yPhase": 1.5707963267948966,
+          "scalePhase": 0
+        },
+        "transitionToNext": {
+          "duration": 18,
+          "easing": "smooth",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "AuroraSweep",
+          "portrait": "AuroraSweepPortrait"
+        },
+        "holdDuration": 0,
+        "motion": {
+          "baseScale": 1.025,
+          "xAmplitude": 5,
+          "yAmplitude": 3,
+          "scaleAmplitude": 0.004,
+          "xPeriod": 100.53096491487338,
+          "yPeriod": 125.66370614359172,
+          "scalePeriod": 150.79644737231007,
+          "xPhase": 2.4,
+          "yPhase": 3.9707963267948965,
+          "scalePhase": 2.4
+        },
+        "transitionToNext": {
+          "duration": 18,
+          "easing": "smooth",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "AuroraSides",
+          "portrait": "AuroraSidesPortrait"
+        },
+        "holdDuration": 0,
+        "motion": {
+          "baseScale": 1.025,
+          "xAmplitude": 5,
+          "yAmplitude": 3,
+          "scaleAmplitude": 0.004,
+          "xPeriod": 100.53096491487338,
+          "yPeriod": 125.66370614359172,
+          "scalePeriod": 150.79644737231007,
+          "xPhase": 4.8,
+          "yPhase": 6.370796326794896,
+          "scalePhase": 4.8
+        },
+        "transitionToNext": {
+          "duration": 18,
+          "easing": "smooth",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [],
+  "appearance": {
+    "topDarkening": 0.1,
+    "bottomDarkening": 0.2,
+    "readabilityOverlay": null
+  }
+}
