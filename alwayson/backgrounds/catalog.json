@@ -58,6 +58,14 @@
       "manifestURL": "packages/yosemite-night/1/manifest.json"
     },
     {
+      "id": "yosemite-dawn",
+      "version": 1,
+      "title": "Yosemite Dawn",
+      "category": "places",
+      "previewURL": "packages/yosemite-dawn/1/assets/YosemiteDawnLandscape.png",
+      "manifestURL": "packages/yosemite-dawn/1/manifest.json"
+    },
+    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",
