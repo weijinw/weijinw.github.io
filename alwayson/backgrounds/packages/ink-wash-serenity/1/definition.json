@@ -1,0 +1,122 @@
+{
+  "formatVersion": 1,
+  "id": "ink-wash-serenity",
+  "animation": {
+    "speedActive": 1,
+    "speedIdle": 0.42,
+    "speedDeepIdle": 0.1,
+    "energyActive": 1,
+    "energyIdle": 0.5,
+    "energyDeepIdle": 0.18,
+    "fpsActive": 30,
+    "fpsIdle": 12
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "InkWashMountain",
+          "portrait": "InkWashMountainPortrait"
+        },
+        "holdDuration": 30.5,
+        "motion": {
+          "baseScale": 1.018,
+          "xAmplitude": 2.5,
+          "yAmplitude": 1.5,
+          "scaleAmplitude": 0.0025,
+          "xPeriod": 138.23007675795088,
+          "yPeriod": 175.92918860102841,
+          "scalePeriod": 188.49555921538757,
+          "xPhase": 0,
+          "yPhase": 1.5707963267948966,
+          "scalePhase": 0
+        },
+        "transitionToNext": {
+          "duration": 8.5,
+          "easing": "easeInOut",
+          "style": {
+            "masked": {
+              "_0": {
+                "asset": {
+                  "landscape": "InkWashFlow",
+                  "portrait": "InkWashFlowPortrait"
+                },
+                "softness": 0.18,
+                "inverted": false
+              }
+            }
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "InkWashStill",
+          "portrait": "InkWashStillPortrait"
+        },
+        "holdDuration": 30.5,
+        "motion": {
+          "baseScale": 1.018,
+          "xAmplitude": 2.5,
+          "yAmplitude": 1.5,
+          "scaleAmplitude": 0.0025,
+          "xPeriod": 138.23007675795088,
+          "yPeriod": 175.92918860102841,
+          "scalePeriod": 188.49555921538757,
+          "xPhase": 1.7,
+          "yPhase": 3.2707963267948967,
+          "scalePhase": 1.7
+        },
+        "transitionToNext": {
+          "duration": 8.5,
+          "easing": "easeInOut",
+          "style": {
+            "masked": {
+              "_0": {
+                "asset": {
+                  "landscape": "InkWashFlow",
+                  "portrait": "InkWashFlowPortrait"
+                },
+                "softness": 0.18,
+                "inverted": true
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [
+    {
+      "asset": {
+        "landscape": "InkWashFlow",
+        "portrait": "InkWashFlowPortrait"
+      },
+      "motion": {
+        "baseScale": 1.04,
+        "xAmplitude": 12,
+        "yAmplitude": 8,
+        "scaleAmplitude": 0.01,
+        "xPeriod": 72.25663103256524,
+        "yPeriod": 94.24777960769379,
+        "scalePeriod": 113.09733552923255,
+        "xPhase": 0.8,
+        "yPhase": 2.9707963267948965,
+        "scalePhase": 0.5
+      },
+      "opacity": {
+        "pulse": {
+          "minimum": 0.1,
+          "maximum": 0.24,
+          "period": 26,
+          "phase": 0,
+          "scalesWithEnergy": true
+        }
+      }
+    }
+  ],
+  "appearance": {
+    "topDarkening": 0.16,
+    "bottomDarkening": 0.26,
+    "readabilityOverlay": null
+  }
+}

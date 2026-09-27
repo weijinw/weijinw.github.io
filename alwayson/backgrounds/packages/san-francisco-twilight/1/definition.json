@@ -1,0 +1,80 @@
+{
+  "formatVersion": 1,
+  "id": "san-francisco-twilight",
+  "animation": {
+    "speedActive": 1,
+    "speedIdle": 0.42,
+    "speedDeepIdle": 0.1,
+    "energyActive": 1,
+    "energyIdle": 0.48,
+    "energyDeepIdle": 0.16,
+    "fpsActive": 30,
+    "fpsIdle": 12
+  },
+  "sequence": {
+    "frames": [
+      {
+        "asset": {
+          "landscape": "SanFranciscoBridge",
+          "portrait": "SanFranciscoBridgePortrait"
+        },
+        "holdDuration": 30,
+        "motion": {
+          "baseScale": 1.025,
+          "xAmplitude": 3,
+          "yAmplitude": 2,
+          "scaleAmplitude": 0.0025,
+          "xPeriod": 213.62830044410595,
+          "yPeriod": 263.89378290154264,
+          "scalePeriod": 314.1592653589793,
+          "xPhase": 0,
+          "yPhase": 1.5707963267948966,
+          "scalePhase": 0
+        },
+        "transitionToNext": {
+          "duration": 7,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      },
+      {
+        "asset": {
+          "landscape": "SanFranciscoDowntown",
+          "portrait": "SanFranciscoDowntownPortrait"
+        },
+        "holdDuration": 30,
+        "motion": {
+          "baseScale": 1.025,
+          "xAmplitude": 3,
+          "yAmplitude": 2,
+          "scaleAmplitude": 0.0025,
+          "xPeriod": 213.62830044410595,
+          "yPeriod": 263.89378290154264,
+          "scalePeriod": 314.1592653589793,
+          "xPhase": 1.8,
+          "yPhase": 3.3707963267948964,
+          "scalePhase": 1.8
+        },
+        "transitionToNext": {
+          "duration": 7,
+          "easing": "easeInOut",
+          "style": {
+            "crossfade": {}
+          }
+        }
+      }
+    ]
+  },
+  "overlays": [],
+  "appearance": {
+    "topDarkening": 0.45,
+    "bottomDarkening": 0.45,
+    "readabilityOverlay": {
+      "baseOpacity": 0.25,
+      "landscape": [],
+      "portrait": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "id": "aurora-drift",
+  "version": 1,
+  "title": "Aurora Drift",
+  "foregroundColors": [
+    "#B2E8C7",
+    "#80DBC8",
+    "#79CFE0",
+    "#9EA7E4",
+    "#D497C3"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "AuroraArc",
+      "fileName": "AuroraArc.png",
+      "url": "assets/AuroraArc.png"
+    },
+    {
+      "name": "AuroraArcPortrait",
+      "fileName": "AuroraArcPortrait.png",
+      "url": "assets/AuroraArcPortrait.png"
+    },
+    {
+      "name": "AuroraSides",
+      "fileName": "AuroraSides.png",
+      "url": "assets/AuroraSides.png"
+    },
+    {
+      "name": "AuroraSidesPortrait",
+      "fileName": "AuroraSidesPortrait.png",
+      "url": "assets/AuroraSidesPortrait.png"
+    },
+    {
+      "name": "AuroraSweep",
+      "fileName": "AuroraSweep.png",
+      "url": "assets/AuroraSweep.png"
+    },
+    {
+      "name": "AuroraSweepPortrait",
+      "fileName": "AuroraSweepPortrait.png",
+      "url": "assets/AuroraSweepPortrait.png"
+    }
+  ]
+}

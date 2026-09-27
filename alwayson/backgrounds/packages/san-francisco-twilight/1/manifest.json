@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "id": "san-francisco-twilight",
+  "version": 1,
+  "title": "San Francisco Twilight",
+  "foregroundColors": [
+    "#F3EFE7",
+    "#A8DDD5",
+    "#F1D28A",
+    "#F0AAA1",
+    "#B8D0F0"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "SanFranciscoBridge",
+      "fileName": "SanFranciscoBridge.png",
+      "url": "assets/SanFranciscoBridge.png"
+    },
+    {
+      "name": "SanFranciscoBridgePortrait",
+      "fileName": "SanFranciscoBridgePortrait.png",
+      "url": "assets/SanFranciscoBridgePortrait.png"
+    },
+    {
+      "name": "SanFranciscoDowntown",
+      "fileName": "SanFranciscoDowntown.png",
+      "url": "assets/SanFranciscoDowntown.png"
+    },
+    {
+      "name": "SanFranciscoDowntownPortrait",
+      "fileName": "SanFranciscoDowntownPortrait.png",
+      "url": "assets/SanFranciscoDowntownPortrait.png"
+    }
+  ]
+}
