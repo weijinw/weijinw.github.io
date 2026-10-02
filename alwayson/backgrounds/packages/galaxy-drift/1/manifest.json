@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "id": "galaxy-drift",
+  "version": 1,
+  "title": "Galaxy Drift",
+  "foregroundColors": [
+    "#D8ECF2",
+    "#7CCFCB",
+    "#7BA8E8",
+    "#A086DD",
+    "#D17DB5"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "GalaxyBlue",
+      "fileName": "GalaxyBlue.png",
+      "url": "assets/GalaxyBlue.png"
+    },
+    {
+      "name": "GalaxyBluePortrait",
+      "fileName": "GalaxyBluePortrait.png",
+      "url": "assets/GalaxyBluePortrait.png"
+    },
+    {
+      "name": "GalaxyMagenta",
+      "fileName": "GalaxyMagenta.png",
+      "url": "assets/GalaxyMagenta.png"
+    },
+    {
+      "name": "GalaxyMagentaPortrait",
+      "fileName": "GalaxyMagentaPortrait.png",
+      "url": "assets/GalaxyMagentaPortrait.png"
+    },
+    {
+      "name": "GalaxyTeal",
+      "fileName": "GalaxyTeal.png",
+      "url": "assets/GalaxyTeal.png"
+    },
+    {
+      "name": "GalaxyTealPortrait",
+      "fileName": "GalaxyTealPortrait.png",
+      "url": "assets/GalaxyTealPortrait.png"
+    }
+  ]
+}

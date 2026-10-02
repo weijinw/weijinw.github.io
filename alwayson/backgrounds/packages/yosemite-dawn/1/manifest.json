@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "yosemite-dawn",
+  "version": 1,
+  "title": "Yosemite Dawn",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#DCE8F7",
+    "#B9CDE3",
+    "#E7C79A",
+    "#A9B8CA"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "YosemiteDawnLandscape",
+      "fileName": "YosemiteDawnLandscape.png",
+      "url": "assets/YosemiteDawnLandscape.png"
+    },
+    {
+      "name": "YosemiteDawnPortrait",
+      "fileName": "YosemiteDawnPortrait.png",
+      "url": "assets/YosemiteDawnPortrait.png"
+    }
+  ]
+}
