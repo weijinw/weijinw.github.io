@@ -43,22 +43,34 @@
       <p>The app may access information on your device only to provide features you choose to use:</p>
       <ul>
         <li>Calendar access, if granted, is used to read upcoming events from your device calendars and display them on your desk display.</li>
-        <li>Location access, if granted, is used for local weather and Daylight features. A resolved place, including approximate coordinates, place name, and time zone, may be cached locally on your device so the Daylight widget can restore its last known location.</li>
+        <li>Location access, if granted, is used for local weather, the Daylight widget, the Earth background, and the current-location city in the Time Together widget. A resolved place, including approximate coordinates, place name, and time zone, may be cached locally on your device.</li>
         <li>Photos access, if granted, is used to display photos in the Photos widget. Photo selections and related identifiers may be stored locally on your device so your widget configuration can be restored.</li>
+        <li>Motion access, if granted, is used to notice when the device moves so Smart Dimming can brighten the display.</li>
+        <li>Alarm access, if granted, is used to schedule the Morning Alarm on your device.</li>
         <li>App settings, such as display hours and visual preferences, are stored locally on your device.</li>
-        <li>Widget and layout preferences are stored locally on your device.</li>
+        <li>Widget and layout preferences, including the names, places, and hours you enter in the Time Together widget, are stored locally on your device.</li>
       </ul>
-      <p>Calendar events, location information, photos, app settings, widget layouts, and usage activity are not sent to the developer. The developer does not operate external servers or maintain a remote user database for the app.</p>
+      <p>Calendar events, location information, photos, motion data, app settings, widget layouts, and usage activity are not sent to the developer. The developer does not operate servers that collect user data and does not maintain a remote user database for the app.</p>
 
       <h2>Calendar</h2>
       <p>If you grant Calendar access, AlwaysOn Desk Clock reads upcoming calendar events so they can be displayed in the app. Calendar event information is used temporarily while the app is running and is not persistently stored by the app.</p>
       <p>The app does not modify or create calendar events.</p>
 
       <h2>Weather and Location</h2>
-      <p>AlwaysOn Desk Clock uses Apple WeatherKit to provide weather information. If you grant Location access, the app uses your device-provided location to request local weather information from Apple WeatherKit and to support the Daylight widget.</p>
+      <p>AlwaysOn Desk Clock uses Apple WeatherKit to provide weather information. If you grant Location access, the app uses your device-provided location to:</p>
+      <ul>
+        <li>request local weather information from Apple WeatherKit;</li>
+        <li>show sunrise, sunset, and daylight for your location in the Daylight widget;</li>
+        <li>center the Earth background on where you are;</li>
+        <li>show your city when a person in the Time Together widget is set to Current Location.</li>
+      </ul>
+      <p>To turn a location into a place name, the app uses Apple's geocoding service, which receives approximate coordinates. When you search for a city or place in a location picker, your search text is sent to Apple Maps to find matching places.</p>
       <p>Weather results are used temporarily while the app is running and are not persistently stored by the app.</p>
-      <p>For the Daylight widget, the app may store the most recently resolved place locally on your device. This cached place can include approximate latitude and longitude, a place name or region, and a time-zone identifier. The cache is used to restore the widget quickly and keep its display stable while a fresh location is requested.</p>
-      <p>Location information is not sent to the developer. Weather data is provided by Apple and is subject to Apple's privacy practices.</p>
+      <p>The app may store the most recently resolved place locally on your device. This cached place can include approximate latitude and longitude, a place name or region, and a time-zone identifier. It is used to restore the Daylight widget, the Earth background, and the Time Together widget quickly and keep their display stable while a fresh location is requested.</p>
+      <p>Location information is not sent to the developer. Weather data, geocoding, and place search are provided by Apple and are subject to Apple's privacy practices.</p>
+
+      <h2>Time Together</h2>
+      <p>The Time Together widget compares the local time and available hours of two people. The optional names, chosen places, and hours you enter are stored locally on your device as part of your widget layout. They are not sent to the developer.</p>
 
       <h2>Photos</h2>
       <p>If you grant Photos access, AlwaysOn Desk Clock uses Apple's PhotoKit framework to read photos and photo metadata needed for the Photos widget.</p>
@@ -66,28 +78,47 @@
       <p>Rendered photo images are not written by the app to a persistent image cache. The app keeps only the most recently displayed image for each Photos widget in memory, and that in-memory cache is released when the app process ends.</p>
       <p>Your photos are not sent to the developer.</p>
 
+      <h2>Motion and Smart Dimming</h2>
+      <p>If you grant Motion &amp; Fitness access, the app uses Apple's Core Motion framework to detect whether the device is still or moving. Smart Dimming uses this to dim the display when the device is still and brighten it when the device moves. Motion data is processed on your device while the app is running and is not stored or sent to the developer.</p>
+
+      <h2>Alarms and Notifications</h2>
+      <p>If you allow alarms or notifications, the Morning Alarm is scheduled on your device using Apple's alarm and notification services. Alarm times and settings are stored locally on your device and are not sent to the developer.</p>
+
+      <h2>Downloadable Backgrounds</h2>
+      <p>Some backgrounds can be downloaded inside the app. The list of available backgrounds and the background images are static files hosted on GitHub Pages (weijinw.github.io). When the app downloads them, your device makes a standard web request. The request does not include personal information or identifiers from the app, but GitHub may record technical details such as your IP address and device type according to the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+      <p>Downloaded backgrounds are stored locally on your device.</p>
+
+      <h2>Feedback</h2>
+      <p>If you choose to send feedback from the app's settings, the app opens an email draft in Apple Mail addressed to the developer. Nothing is sent unless you tap Send. If you send it, the developer receives your email address and the contents of your message and uses them only to read and respond to your feedback.</p>
+      <p>After you send feedback, the app stores a local flag on your device so it can show a contributor badge in settings.</p>
+
+      <h2>Ratings</h2>
+      <p>The app may occasionally ask you to rate it using Apple's standard rating prompt. To decide when to ask, the app stores simple usage information, such as the current app version and when you first used it, locally on your device. Ratings and reviews are handled by Apple.</p>
+
       <h2>Third-Party Services</h2>
       <p>The app does not use third-party advertising SDKs, analytics SDKs, or tracking services.</p>
+      <p>The app relies on Apple services for weather (WeatherKit), geocoding and place search (Core Location and MapKit), and ratings (StoreKit). Downloadable backgrounds are hosted on GitHub Pages. These services are subject to the privacy practices of Apple and GitHub.</p>
 
       <h2>Data Retention and Deletion</h2>
       <p>AlwaysOn Desk Clock does not store user data on developer-controlled servers.</p>
-      <p>Calendar event information and weather results are used temporarily while the app is running and are not persistently stored by the app.</p>
-      <p>App settings, widget layout preferences, cached Daylight location information, and Photos widget configuration identifiers may be stored locally on your device. They remain on your device until you change or reset them, delete the app, or clear related device data.</p>
+      <p>Calendar event information, weather results, and motion data are used temporarily while the app is running and are not persistently stored by the app.</p>
+      <p>App settings, widget layout preferences (including Time Together names, places, and hours), the cached location, Photos widget configuration identifiers, alarm settings, downloaded backgrounds, and rating and feedback flags may be stored locally on your device. They remain on your device until you change or reset them, delete the app, or clear related device data.</p>
       <p>Rendered Photos widget images are kept only in memory by the app and are not persistently cached to disk by the app.</p>
+      <p>If you email feedback to the developer, you can ask for that email to be deleted by contacting the developer.</p>
 
       <h2>Your Choices</h2>
-      <p>You can manage Calendar, Location, and Photos permissions in the iOS Settings app at any time. Some app features may not work if the related permission is disabled.</p>
+      <p>You can manage Calendar, Location, Photos, Motion &amp; Fitness, Alarms, and Notifications permissions in the iOS Settings app at any time. Some app features may not work if the related permission is disabled.</p>
       <p>You can stop using the app at any time by uninstalling it.</p>
 
       <h2>Children</h2>
       <p>AlwaysOn Desk Clock does not knowingly collect personal information from children. The app does not include accounts, messaging, advertising, or tracking.</p>
 
       <h2>Security</h2>
-      <p>The app does not operate developer-controlled servers or maintain a remote user database. Locally stored app settings, widget layout preferences, cached Daylight location information, and Photos widget configuration data are protected by the security mechanisms provided by iOS and your device.</p>
+      <p>The app does not operate servers that collect user data or maintain a remote user database. Locally stored app settings, widget layout preferences, the cached location, Photos widget configuration data, and downloaded backgrounds are protected by the security mechanisms provided by iOS and your device.</p>
 
       <h2>Changes</h2>
       <p>This Privacy Policy may be updated from time to time. Any changes will be posted on this page.</p>
-      <p>This Privacy Policy is effective as of September 24, 2026.</p>
+      <p>This Privacy Policy is effective as of October 2, 2026.</p>
 
       <h2>Contact Us</h2>
       <p>If you have questions about this Privacy Policy or the app's privacy practices, use the <a href="../../support/?app=alwayson">AlwaysOn support form</a>.</p>
