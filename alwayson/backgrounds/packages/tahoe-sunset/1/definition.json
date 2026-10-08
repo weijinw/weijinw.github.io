@@ -43,8 +43,8 @@
   },
   "overlays": [],
   "appearance": {
-    "topDarkening": 0.02,
-    "bottomDarkening": 0.08,
+    "topDarkening": 0.18,
+    "bottomDarkening": 0.28,
     "readabilityOverlay": null
   }
 }
