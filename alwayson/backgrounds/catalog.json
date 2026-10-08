@@ -66,6 +66,14 @@
       "manifestURL": "packages/yosemite-dawn/1/manifest.json"
     },
     {
+      "id": "tahoe-sunset",
+      "version": 1,
+      "title": "Tahoe Sunset",
+      "category": "places",
+      "previewURL": "packages/tahoe-sunset/1/assets/TahoeSunsetLandscape.png",
+      "manifestURL": "packages/tahoe-sunset/1/manifest.json"
+    },
+    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",

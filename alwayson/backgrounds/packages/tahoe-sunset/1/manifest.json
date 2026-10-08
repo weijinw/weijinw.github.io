@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "tahoe-sunset",
+  "version": 1,
+  "title": "Tahoe Sunset",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#DDE7F8",
+    "#B7C8E8",
+    "#F2C38A",
+    "#A8B6D0"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "TahoeSunsetLandscape",
+      "fileName": "TahoeSunsetLandscape.png",
+      "url": "assets/TahoeSunsetLandscape.png"
+    },
+    {
+      "name": "TahoeSunsetPortrait",
+      "fileName": "TahoeSunsetPortrait.png",
+      "url": "assets/TahoeSunsetPortrait.png"
+    }
+  ]
+}
