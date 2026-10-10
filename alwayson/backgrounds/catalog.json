@@ -82,6 +82,14 @@
       "manifestURL": "packages/neuschwanstein-dusk/1/manifest.json"
     },
     {
+      "id": "moonlit-india",
+      "version": 1,
+      "title": "Moonlit India",
+      "category": "places",
+      "previewURL": "packages/moonlit-india/1/assets/MoonlitIndiaLandscape.png",
+      "manifestURL": "packages/moonlit-india/1/manifest.json"
+    },
+    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",
