@@ -5,10 +5,10 @@
   "title": "Neuschwanstein Dusk",
   "foregroundColors": [
     "#FFFFFF",
-    "#F5E6C8",
-    "#FFD98A",
-    "#F2C46B",
-    "#CBD5E6"
+    "#FFC23D",
+    "#FF9A4D",
+    "#7FB8FF",
+    "#B9A8FF"
   ],
   "definitionURL": "definition.json",
   "assets": [
