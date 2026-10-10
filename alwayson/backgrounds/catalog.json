@@ -74,6 +74,14 @@
       "manifestURL": "packages/tahoe-sunset/1/manifest.json"
     },
     {
+      "id": "neuschwanstein-dusk",
+      "version": 1,
+      "title": "Neuschwanstein Dusk",
+      "category": "places",
+      "previewURL": "packages/neuschwanstein-dusk/1/assets/NeuschwansteinDuskLandscape.png",
+      "manifestURL": "packages/neuschwanstein-dusk/1/manifest.json"
+    },
+    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",
