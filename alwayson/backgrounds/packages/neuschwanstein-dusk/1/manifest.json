@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "neuschwanstein-dusk",
+  "version": 1,
+  "title": "Neuschwanstein Dusk",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFC23D",
+    "#FF9A4D",
+    "#7FB8FF",
+    "#B9A8FF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "NeuschwansteinDuskLandscape",
+      "fileName": "NeuschwansteinDuskLandscape.png",
+      "url": "assets/NeuschwansteinDuskLandscape.png"
+    },
+    {
+      "name": "NeuschwansteinDuskPortrait",
+      "fileName": "NeuschwansteinDuskPortrait.png",
+      "url": "assets/NeuschwansteinDuskPortrait.png"
+    }
+  ]
+}
