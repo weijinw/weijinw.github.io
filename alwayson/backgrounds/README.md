@@ -26,7 +26,11 @@ alwayson/backgrounds/
 
 Each package version is immutable after it has been promoted to production. To update a background, create a new numeric version directory and update `catalog.json` to reference the new manifest.
 
-Catalog entries may include a `category` string such as `Ambient`, `Nature`, `Abstract`, or `Places`. The app uses this metadata to group remote backgrounds in the Background Gallery. Keep category names short and reuse existing names when possible.
+Every catalog entry needs a `category`, exactly one of `minimal`, `abstract`, `fluid`, `art`, `nature`, `space`, `places` (lowercase). The app groups remote backgrounds in the Background Gallery by it. Any other value breaks the whole catalog for every installed app version, so check every entry before pushing; a new category needs an app release first.
+
+## Seasonal backgrounds
+
+Region- and date-limited offers (Halloween, Lunar New Year) go in the top-level `featured` array of `catalog.json`, not in `backgrounds`. App versions before 1.16 ignore `featured`. Entry format, rules and test steps live in the app repo at `docs/seasonal-backgrounds.md` (AlwaysOnStandby, v1.16 branch).
 
 ## Development workflow
 
