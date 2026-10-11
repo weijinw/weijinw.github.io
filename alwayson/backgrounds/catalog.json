@@ -90,14 +90,6 @@
       "manifestURL": "packages/moonlit-india/1/manifest.json"
     },
     {
-      "id": "halloween-night",
-      "version": 1,
-      "title": "Halloween Night",
-      "category": "seasonal",
-      "previewURL": "packages/halloween-night/1/assets/HalloweenNightLandscape.png",
-      "manifestURL": "packages/halloween-night/1/manifest.json"
-    },
-    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",
@@ -168,6 +160,26 @@
       "category": "places",
       "previewURL": "packages/san-francisco-twilight/1/assets/SanFranciscoBridge.png",
       "manifestURL": "packages/san-francisco-twilight/1/manifest.json"
+    }
+  ],
+  "featured": [
+    {
+      "background": {
+        "id": "halloween-night",
+        "version": 1,
+        "title": "Halloween Night",
+        "category": "art",
+        "previewURL": "packages/halloween-night/1/assets/HalloweenNightLandscape.png",
+        "manifestURL": "packages/halloween-night/1/manifest.json"
+      },
+      "regions": ["US", "CA"],
+      "start": "2026-10-01",
+      "end": "2026-11-01",
+      "headline": {
+        "en": "Halloween Night is here",
+        "es": "Llegó la noche de Halloween",
+        "zh-Hans": "万圣夜主题来了"
+      }
     }
   ]
 }
