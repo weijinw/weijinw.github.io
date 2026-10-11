@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "halloween-night",
+  "version": 1,
+  "title": "Halloween Night",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFC857",
+    "#FF9A3C",
+    "#9CF57A",
+    "#C9A0FF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "HalloweenNightLandscape",
+      "fileName": "HalloweenNightLandscape.png",
+      "url": "assets/HalloweenNightLandscape.png"
+    },
+    {
+      "name": "HalloweenNightPortrait",
+      "fileName": "HalloweenNightPortrait.png",
+      "url": "assets/HalloweenNightPortrait.png"
+    }
+  ]
+}

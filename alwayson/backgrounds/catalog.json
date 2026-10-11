@@ -90,6 +90,14 @@
       "manifestURL": "packages/moonlit-india/1/manifest.json"
     },
     {
+      "id": "halloween-night",
+      "version": 1,
+      "title": "Halloween Night",
+      "category": "seasonal",
+      "previewURL": "packages/halloween-night/1/assets/HalloweenNightLandscape.png",
+      "manifestURL": "packages/halloween-night/1/manifest.json"
+    },
+    {
       "id": "chongqing-night",
       "version": 1,
       "title": "Chongqing Night",
