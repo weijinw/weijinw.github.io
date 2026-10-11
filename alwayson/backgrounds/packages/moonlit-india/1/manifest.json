@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "moonlit-india",
+  "version": 1,
+  "title": "Moonlit India",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFC94D",
+    "#FF8A6B",
+    "#4FD8C8",
+    "#C3A6FF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "MoonlitIndiaLandscape",
+      "fileName": "MoonlitIndiaLandscape.png",
+      "url": "assets/MoonlitIndiaLandscape.png"
+    },
+    {
+      "name": "MoonlitIndiaPortrait",
+      "fileName": "MoonlitIndiaPortrait.png",
+      "url": "assets/MoonlitIndiaPortrait.png"
+    }
+  ]
+}
