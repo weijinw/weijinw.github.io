@@ -172,7 +172,7 @@
         "previewURL": "packages/halloween-night/1/assets/HalloweenNightLandscape.png",
         "manifestURL": "packages/halloween-night/1/manifest.json"
       },
-      "regions": ["US", "CA"],
+      "regions": ["US", "CA", "PR", "GU", "VI", "AS", "IE", "GB", "AU", "NZ"],
       "start": "2026-10-01",
       "end": "2026-11-01",
       "headline": {
