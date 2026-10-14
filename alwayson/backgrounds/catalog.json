@@ -173,8 +173,8 @@
         "manifestURL": "packages/halloween-night/1/manifest.json"
       },
       "regions": ["US", "CA", "PR", "GU", "VI", "AS", "IE", "GB", "AU", "NZ"],
-      "start": "2026-10-01",
-      "end": "2026-11-01",
+      "start": "2026-10-25",
+      "end": "2026-11-05",
       "headline": {
         "en": "Halloween Night is here",
         "es": "Llegó la noche de Halloween",
