@@ -43,7 +43,7 @@
       <p>The app may access information on your device only to provide features you choose to use:</p>
       <ul>
         <li>Calendar access, if granted, is used to read upcoming events from your device calendars and display them on your desk display.</li>
-        <li>Location access, if granted, is used for local weather, the Daylight widget, the Earth background, and the current-location city in the Time Together widget. A resolved place, including approximate coordinates, place name, and time zone, may be cached locally on your device.</li>
+        <li>Location access, if granted, is used for local weather, the Daylight widget, the Earth and Horizon backgrounds, backgrounds whose light follows the Sun (such as Green Room and Catnap), the Daylight, Green Room, and Horizon widgets on your Home Screen and Lock Screen, and the current-location city in the Time Together widget. A resolved place, including approximate coordinates, place name, and time zone, may be cached locally on your device.</li>
         <li>Photos access, if granted, is used to display photos in the Photos widget. Photo selections and related identifiers may be stored locally on your device so your widget configuration can be restored.</li>
         <li>Motion access, if granted, is used to notice when the device moves so Smart Dimming can brighten the display.</li>
         <li>Alarm access, if granted, is used to schedule the Morning Alarm on your device.</li>
@@ -61,12 +61,15 @@
       <ul>
         <li>request local weather information from Apple WeatherKit;</li>
         <li>show sunrise, sunset, and daylight for your location in the Daylight widget;</li>
-        <li>center the Earth background on where you are;</li>
+        <li>center the Earth background on where you are, and show where you are on the Horizon background;</li>
+        <li>match the light in backgrounds such as Green Room and Catnap to the Sun where you are;</li>
+        <li>show the Sun, daylight, and lighting for your location in the Daylight, Green Room, and Horizon widgets on your Home Screen and Lock Screen;</li>
         <li>show your city when a person in the Time Together widget is set to Current Location.</li>
       </ul>
+      <p>The Home Screen and Lock Screen widgets never ask for Location access themselves. If you have allowed it, they read your approximate location when they refresh; if you have not, they use the main city of your device's time zone instead.</p>
       <p>To turn a location into a place name, the app uses Apple's geocoding service, which receives approximate coordinates. When you search for a city or place in a location picker, your search text is sent to Apple Maps to find matching places.</p>
       <p>Weather results are used temporarily while the app is running and are not persistently stored by the app.</p>
-      <p>The app may store the most recently resolved place locally on your device. This cached place can include approximate latitude and longitude, a place name or region, and a time-zone identifier. It is used to restore the Daylight widget, the Earth background, and the Time Together widget quickly and keep their display stable while a fresh location is requested.</p>
+      <p>The app may store the most recently resolved place locally on your device. This cached place can include approximate latitude and longitude, a place name or region, and a time-zone identifier. It is used to restore the Daylight widget, the location-based backgrounds, and the Time Together widget quickly and keep their display stable while a fresh location is requested.</p>
       <p>Location information is not sent to the developer. Weather data, geocoding, and place search are provided by Apple and are subject to Apple's privacy practices.</p>
 
       <h2>Time Together</h2>
@@ -118,7 +121,7 @@
 
       <h2>Changes</h2>
       <p>This Privacy Policy may be updated from time to time. Any changes will be posted on this page.</p>
-      <p>This Privacy Policy is effective as of October 2, 2026.</p>
+      <p>This Privacy Policy is effective as of October 16, 2026.</p>
 
       <h2>Contact Us</h2>
       <p>If you have questions about this Privacy Policy or the app's privacy practices, use the <a href="../../support/?app=alwayson">AlwaysOn support form</a>.</p>
