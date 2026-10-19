@@ -160,6 +160,14 @@
       "category": "places",
       "previewURL": "packages/san-francisco-twilight/1/assets/SanFranciscoBridge.png",
       "manifestURL": "packages/san-francisco-twilight/1/manifest.json"
+    },
+    {
+      "id": "golden-reeds",
+      "version": 1,
+      "title": "Golden Reeds",
+      "category": "nature",
+      "previewURL": "packages/golden-reeds/1/assets/GoldenReedsLandscape.png",
+      "manifestURL": "packages/golden-reeds/1/manifest.json"
     }
   ],
   "featured": [

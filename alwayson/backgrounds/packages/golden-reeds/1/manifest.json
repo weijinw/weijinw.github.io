@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "golden-reeds",
+  "version": 1,
+  "title": "Golden Reeds",
+  "foregroundColors": [
+    "#5A3A22",
+    "#A3410F",
+    "#0E6E6A",
+    "#2D4E9E",
+    "#8C2352"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "GoldenReedsLandscape",
+      "fileName": "GoldenReedsLandscape.png",
+      "url": "assets/GoldenReedsLandscape.png"
+    },
+    {
+      "name": "GoldenReedsPortrait",
+      "fileName": "GoldenReedsPortrait.png",
+      "url": "assets/GoldenReedsPortrait.png"
+    }
+  ]
+}
