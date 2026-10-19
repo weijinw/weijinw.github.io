@@ -4,11 +4,11 @@
   "version": 1,
   "title": "Golden Reeds",
   "foregroundColors": [
-    "#604A3D",
-    "#5A4434",
-    "#6A4A36",
-    "#5E4A44",
-    "#664D33"
+    "#2E1F14",
+    "#5C2414",
+    "#0F3C3F",
+    "#23324F",
+    "#4A2340"
   ],
   "definitionURL": "definition.json",
   "assets": [
