@@ -168,6 +168,14 @@
       "category": "nature",
       "previewURL": "packages/golden-reeds/1/assets/GoldenReedsLandscape.png",
       "manifestURL": "packages/golden-reeds/1/manifest.json"
+    },
+    {
+      "id": "italian-nights",
+      "version": 1,
+      "title": "Italian Nights",
+      "category": "places",
+      "previewURL": "packages/italian-nights/1/assets/ItalianNightsLandscape.png",
+      "manifestURL": "packages/italian-nights/1/manifest.json"
     }
   ],
   "featured": [

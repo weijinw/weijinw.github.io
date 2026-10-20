@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "italian-nights",
+  "version": 1,
+  "title": "Italian Nights",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFC857",
+    "#FF8A65",
+    "#F7A8C8",
+    "#7FE0B5"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "ItalianNightsLandscape",
+      "fileName": "ItalianNightsLandscape.png",
+      "url": "assets/ItalianNightsLandscape.png"
+    },
+    {
+      "name": "ItalianNightsPortrait",
+      "fileName": "ItalianNightsPortrait.png",
+      "url": "assets/ItalianNightsPortrait.png"
+    }
+  ]
+}
