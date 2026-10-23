@@ -184,6 +184,14 @@
       "category": "abstract",
       "previewURL": "packages/glass-lotus/1/assets/GlassLotusLandscape.png",
       "manifestURL": "packages/glass-lotus/1/manifest.json"
+    },
+    {
+      "id": "amber-nap",
+      "version": 1,
+      "title": "Amber Nap",
+      "category": "nature",
+      "previewURL": "packages/amber-nap/1/assets/AmberNapLandscape.png",
+      "manifestURL": "packages/amber-nap/1/manifest.json"
     }
   ],
   "featured": [
