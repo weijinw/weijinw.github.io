@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "amber-nap",
+  "version": 1,
+  "title": "Amber Nap",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFC46B",
+    "#8CC8FF",
+    "#8FE6C0",
+    "#C9B3FF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "AmberNapLandscape",
+      "fileName": "AmberNapLandscape.png",
+      "url": "assets/AmberNapLandscape.png"
+    },
+    {
+      "name": "AmberNapPortrait",
+      "fileName": "AmberNapPortrait.png",
+      "url": "assets/AmberNapPortrait.png"
+    }
+  ]
+}
