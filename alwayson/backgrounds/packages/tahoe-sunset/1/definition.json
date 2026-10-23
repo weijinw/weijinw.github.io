@@ -45,6 +45,11 @@
   "appearance": {
     "topDarkening": 0.18,
     "bottomDarkening": 0.28,
-    "readabilityOverlay": null
+    "readabilityOverlay": null,
+    "floor": {
+      "landscape": 0.6,
+      "portrait": 0.644,
+      "surface": "water"
+    }
   }
 }
