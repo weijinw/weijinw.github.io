@@ -4,11 +4,11 @@
   "version": 1,
   "title": "Glass Lotus",
   "foregroundColors": [
-    "#2A1F45",
-    "#0A3B40",
-    "#1F3416",
-    "#47162F",
-    "#13284F"
+    "#4B3C78",
+    "#146A70",
+    "#3D6127",
+    "#742D5A",
+    "#28508F"
   ],
   "definitionURL": "definition.json",
   "assets": [
