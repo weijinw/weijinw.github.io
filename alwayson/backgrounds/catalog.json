@@ -176,6 +176,14 @@
       "category": "places",
       "previewURL": "packages/italian-nights/1/assets/ItalianNightsLandscape.png",
       "manifestURL": "packages/italian-nights/1/manifest.json"
+    },
+    {
+      "id": "glass-lotus",
+      "version": 1,
+      "title": "Glass Lotus",
+      "category": "abstract",
+      "previewURL": "packages/glass-lotus/1/assets/GlassLotusLandscape.png",
+      "manifestURL": "packages/glass-lotus/1/manifest.json"
     }
   ],
   "featured": [

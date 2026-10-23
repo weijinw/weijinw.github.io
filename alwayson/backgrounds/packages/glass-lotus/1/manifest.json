@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "glass-lotus",
+  "version": 1,
+  "title": "Glass Lotus",
+  "foregroundColors": [
+    "#2A1F45",
+    "#0A3B40",
+    "#1F3416",
+    "#47162F",
+    "#13284F"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "GlassLotusLandscape",
+      "fileName": "GlassLotusLandscape.png",
+      "url": "assets/GlassLotusLandscape.png"
+    },
+    {
+      "name": "GlassLotusPortrait",
+      "fileName": "GlassLotusPortrait.png",
+      "url": "assets/GlassLotusPortrait.png"
+    }
+  ]
+}
