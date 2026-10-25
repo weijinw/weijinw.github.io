@@ -32,6 +32,10 @@ Every catalog entry needs a `category`, exactly one of `minimal`, `abstract`, `f
 
 Region- and date-limited offers (Halloween, Lunar New Year) go in the top-level `featured` array of `catalog.json`, not in `backgrounds`. App versions before 1.16 ignore `featured`. Entry format, rules and test steps live in the app repo at `docs/seasonal-backgrounds.md` (AlwaysOnStandby, v1.16 branch).
 
+## Usage notice
+
+`NOTICE.txt` states that the catalog, packages and images here are provided only for use within AlwaysOn Desk Clock and may not be redistributed or bulk-downloaded outside the app. `robots.txt` at the site root asks crawlers to skip `/alwayson/backgrounds/`; it does not affect the app, which downloads files directly. Neither actually prevents access: the site and this repository are public.
+
 ## Development workflow
 
 1. Start `dev` from the current `main` branch.
