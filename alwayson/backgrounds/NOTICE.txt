@@ -1,0 +1,14 @@
+AlwaysOn Desk Clock - Downloadable Backgrounds
+
+The files in this directory (the background catalog, packages, and images)
+are provided solely for use within the AlwaysOn Desk Clock app.
+
+They are not licensed for any other use. Do not copy, redistribute, resell,
+republish, or use these files, in whole or in part, outside the app
+(including in other apps, wallpaper collections, or datasets) without
+written permission.
+
+Automated bulk downloading of these files outside the app is not permitted.
+
+For permission requests or questions, use the AlwaysOn support form:
+https://weijinw.github.io/support/?app=alwayson
