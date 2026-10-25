@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "kochia-fields",
+  "version": 1,
+  "title": "Kochia Fields",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#8ECDFF",
+    "#7DEBB0",
+    "#D0B6FF",
+    "#6FE7EF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "KochiaFieldsLandscape",
+      "fileName": "KochiaFieldsLandscape.png",
+      "url": "assets/KochiaFieldsLandscape.png"
+    },
+    {
+      "name": "KochiaFieldsPortrait",
+      "fileName": "KochiaFieldsPortrait.png",
+      "url": "assets/KochiaFieldsPortrait.png"
+    }
+  ]
+}
