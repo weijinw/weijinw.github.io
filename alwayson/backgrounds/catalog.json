@@ -195,11 +195,11 @@
     },
     {
       "id": "tianshan-flower-sea",
-      "version": 1,
+      "version": 2,
       "title": "Tianshan Flower Sea",
       "category": "places",
-      "previewURL": "packages/tianshan-flower-sea/1/assets/TianshanFlowerSeaLandscape.png",
-      "manifestURL": "packages/tianshan-flower-sea/1/manifest.json"
+      "previewURL": "packages/tianshan-flower-sea/2/assets/TianshanFlowerSeaLandscape.png",
+      "manifestURL": "packages/tianshan-flower-sea/2/manifest.json"
     }
   ],
   "featured": [
