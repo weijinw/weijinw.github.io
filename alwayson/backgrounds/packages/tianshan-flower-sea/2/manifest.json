@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "tianshan-flower-sea",
+  "version": 2,
+  "title": "Tianshan Flower Sea",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#8ECDFF",
+    "#7DEBB0",
+    "#D0B6FF",
+    "#6FE7EF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "TianshanFlowerSeaLandscape",
+      "fileName": "TianshanFlowerSeaLandscape.png",
+      "url": "assets/TianshanFlowerSeaLandscape.png"
+    },
+    {
+      "name": "TianshanFlowerSeaPortrait",
+      "fileName": "TianshanFlowerSeaPortrait.png",
+      "url": "assets/TianshanFlowerSeaPortrait.png"
+    }
+  ]
+}
