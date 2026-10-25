@@ -194,12 +194,12 @@
       "manifestURL": "packages/amber-nap/1/manifest.json"
     },
     {
-      "id": "kochia-fields",
+      "id": "tianshan-flower-sea",
       "version": 1,
-      "title": "Kochia Fields",
-      "category": "nature",
-      "previewURL": "packages/kochia-fields/1/assets/KochiaFieldsLandscape.png",
-      "manifestURL": "packages/kochia-fields/1/manifest.json"
+      "title": "Tianshan Flower Sea",
+      "category": "places",
+      "previewURL": "packages/tianshan-flower-sea/1/assets/TianshanFlowerSeaLandscape.png",
+      "manifestURL": "packages/tianshan-flower-sea/1/manifest.json"
     }
   ],
   "featured": [

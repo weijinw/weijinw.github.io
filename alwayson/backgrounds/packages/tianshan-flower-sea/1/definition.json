@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "id": "kochia-fields",
+  "id": "tianshan-flower-sea",
   "animation": {
     "speedActive": 1,
     "speedIdle": 0.35,
@@ -15,8 +15,8 @@
     "frames": [
       {
         "asset": {
-          "landscape": "KochiaFieldsLandscape",
-          "portrait": "KochiaFieldsPortrait"
+          "landscape": "TianshanFlowerSeaLandscape",
+          "portrait": "TianshanFlowerSeaPortrait"
         },
         "holdDuration": 60,
         "motion": {
