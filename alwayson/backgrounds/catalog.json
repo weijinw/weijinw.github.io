@@ -192,6 +192,14 @@
       "category": "nature",
       "previewURL": "packages/amber-nap/1/assets/AmberNapLandscape.png",
       "manifestURL": "packages/amber-nap/1/manifest.json"
+    },
+    {
+      "id": "tianshan-flower-sea",
+      "version": 1,
+      "title": "Tianshan Flower Sea",
+      "category": "places",
+      "previewURL": "packages/tianshan-flower-sea/1/assets/TianshanFlowerSeaLandscape.png",
+      "manifestURL": "packages/tianshan-flower-sea/1/manifest.json"
     }
   ],
   "featured": [
