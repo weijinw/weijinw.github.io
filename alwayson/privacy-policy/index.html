@@ -88,7 +88,9 @@
       <p>If you allow alarms or notifications, the Morning Alarm is scheduled on your device using Apple's alarm and notification services. Alarm times and settings are stored locally on your device and are not sent to the developer.</p>
 
       <h2>Downloadable Backgrounds</h2>
-      <p>Some backgrounds can be downloaded inside the app. The list of available backgrounds and the background images are static files hosted on GitHub Pages (weijinw.github.io). When the app downloads them, your device makes a standard web request. The request does not include personal information or identifiers from the app, but GitHub may record technical details such as your IP address and device type according to the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+      <p>Some backgrounds can be downloaded inside the app. The list of available backgrounds and the background images are static files hosted on GitHub Pages (weijinw.github.io) and delivered through a Cloudflare Worker run by the developer. When the app downloads them, your device makes a standard web request. The request does not include personal information or identifiers from the app.</p>
+      <p>To learn which backgrounds are popular, the Worker counts each background download. It keeps only a daily total for each background, version, and country, where the country is worked out by Cloudflare from the request. It does not keep your IP address, device identifiers, or anything that links a download to you or your device.</p>
+      <p>Cloudflare and GitHub may record technical details such as your IP address and device type according to the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a> and the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
       <p>Downloaded backgrounds are stored locally on your device.</p>
 
       <h2>Feedback</h2>
@@ -100,10 +102,10 @@
 
       <h2>Third-Party Services</h2>
       <p>The app does not use third-party advertising SDKs, analytics SDKs, or tracking services.</p>
-      <p>The app relies on Apple services for weather (WeatherKit), geocoding and place search (Core Location and MapKit), and ratings (StoreKit). Downloadable backgrounds are hosted on GitHub Pages. These services are subject to the privacy practices of Apple and GitHub.</p>
+      <p>The app relies on Apple services for weather (WeatherKit), geocoding and place search (Core Location and MapKit), and ratings (StoreKit). Downloadable backgrounds are hosted on GitHub Pages and delivered through Cloudflare. These services are subject to the privacy practices of Apple, GitHub, and Cloudflare.</p>
 
       <h2>Data Retention and Deletion</h2>
-      <p>AlwaysOn Desk Clock does not store user data on developer-controlled servers.</p>
+      <p>AlwaysOn Desk Clock does not store user data on developer-controlled servers. The background download counts described above are anonymous totals and are kept for as long as they are useful to the developer.</p>
       <p>Calendar event information, weather results, and motion data are used temporarily while the app is running and are not persistently stored by the app.</p>
       <p>App settings, widget layout preferences (including Time Together names, places, and hours), the cached location, Photos widget configuration identifiers, alarm settings, downloaded backgrounds, and rating and feedback flags may be stored locally on your device. They remain on your device until you change or reset them, delete the app, or clear related device data.</p>
       <p>Rendered Photos widget images are kept only in memory by the app and are not persistently cached to disk by the app.</p>
@@ -117,11 +119,11 @@
       <p>AlwaysOn Desk Clock does not knowingly collect personal information from children. The app does not include accounts, messaging, advertising, or tracking.</p>
 
       <h2>Security</h2>
-      <p>The app does not operate servers that collect user data or maintain a remote user database. Locally stored app settings, widget layout preferences, the cached location, Photos widget configuration data, and downloaded backgrounds are protected by the security mechanisms provided by iOS and your device.</p>
+      <p>The app does not operate servers that collect user data or maintain a remote user database. The only developer-run service is the Cloudflare Worker that delivers downloadable backgrounds and keeps the anonymous download counts. Locally stored app settings, widget layout preferences, the cached location, Photos widget configuration data, and downloaded backgrounds are protected by the security mechanisms provided by iOS and your device.</p>
 
       <h2>Changes</h2>
       <p>This Privacy Policy may be updated from time to time. Any changes will be posted on this page.</p>
-      <p>This Privacy Policy is effective as of October 16, 2026.</p>
+      <p>This Privacy Policy is effective as of October 25, 2026.</p>
 
       <h2>Contact Us</h2>
       <p>If you have questions about this Privacy Policy or the app's privacy practices, use the <a href="../../support/?app=alwayson">AlwaysOn support form</a>.</p>
