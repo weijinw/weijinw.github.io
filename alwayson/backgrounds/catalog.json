@@ -200,6 +200,22 @@
       "category": "places",
       "previewURL": "packages/tianshan-flower-sea/2/assets/TianshanFlowerSeaLandscape.png",
       "manifestURL": "packages/tianshan-flower-sea/2/manifest.json"
+    },
+    {
+      "id": "golden-terraces",
+      "version": 1,
+      "title": "Golden Terraces",
+      "category": "nature",
+      "previewURL": "packages/golden-terraces/1/assets/GoldenTerracesLandscape.png",
+      "manifestURL": "packages/golden-terraces/1/manifest.json"
+    },
+    {
+      "id": "poplar-reflections",
+      "version": 1,
+      "title": "Poplar Reflections",
+      "category": "nature",
+      "previewURL": "packages/poplar-reflections/1/assets/PoplarReflectionsLandscape.png",
+      "manifestURL": "packages/poplar-reflections/1/manifest.json"
     }
   ],
   "featured": [
