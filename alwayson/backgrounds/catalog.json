@@ -202,20 +202,20 @@
       "manifestURL": "packages/tianshan-flower-sea/2/manifest.json"
     },
     {
-      "id": "golden-terraces",
+      "id": "longji-terraces",
       "version": 1,
-      "title": "Golden Terraces",
+      "title": "Longji Terraces",
       "category": "nature",
-      "previewURL": "packages/golden-terraces/1/assets/GoldenTerracesLandscape.png",
-      "manifestURL": "packages/golden-terraces/1/manifest.json"
+      "previewURL": "packages/longji-terraces/1/assets/LongjiTerracesLandscape.png",
+      "manifestURL": "packages/longji-terraces/1/manifest.json"
     },
     {
-      "id": "poplar-reflections",
+      "id": "huyang-forest",
       "version": 1,
-      "title": "Poplar Reflections",
+      "title": "Huyang Forest",
       "category": "nature",
-      "previewURL": "packages/poplar-reflections/1/assets/PoplarReflectionsLandscape.png",
-      "manifestURL": "packages/poplar-reflections/1/manifest.json"
+      "previewURL": "packages/huyang-forest/1/assets/HuyangForestLandscape.png",
+      "manifestURL": "packages/huyang-forest/1/manifest.json"
     }
   ],
   "featured": [

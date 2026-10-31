@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "id": "poplar-reflections",
+  "id": "longji-terraces",
   "animation": {
     "speedActive": 1,
     "speedIdle": 0.35,
@@ -15,8 +15,8 @@
     "frames": [
       {
         "asset": {
-          "landscape": "PoplarReflectionsLandscape",
-          "portrait": "PoplarReflectionsPortrait"
+          "landscape": "LongjiTerracesLandscape",
+          "portrait": "LongjiTerracesPortrait"
         },
         "holdDuration": 60,
         "motion": {
@@ -43,10 +43,10 @@
   },
   "overlays": [],
   "appearance": {
-    "topDarkening": 0.08,
-    "bottomDarkening": 0.15,
+    "topDarkening": 0.06,
+    "bottomDarkening": 0.18,
     "readabilityOverlay": {
-      "baseOpacity": 0.25,
+      "baseOpacity": 0.2,
       "landscape": [],
       "portrait": []
     }
