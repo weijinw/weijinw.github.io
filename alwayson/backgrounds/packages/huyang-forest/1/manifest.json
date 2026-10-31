@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "huyang-forest",
+  "version": 1,
+  "title": "Huyang Forest",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFF3B0",
+    "#C9F5E4",
+    "#FFD9A8",
+    "#E6D4FF"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "HuyangForestLandscape",
+      "fileName": "HuyangForestLandscape.png",
+      "url": "assets/HuyangForestLandscape.png"
+    },
+    {
+      "name": "HuyangForestPortrait",
+      "fileName": "HuyangForestPortrait.png",
+      "url": "assets/HuyangForestPortrait.png"
+    }
+  ]
+}

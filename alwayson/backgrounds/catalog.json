@@ -200,6 +200,22 @@
       "category": "places",
       "previewURL": "packages/tianshan-flower-sea/2/assets/TianshanFlowerSeaLandscape.png",
       "manifestURL": "packages/tianshan-flower-sea/2/manifest.json"
+    },
+    {
+      "id": "longji-terraces",
+      "version": 1,
+      "title": "Longji Terraces",
+      "category": "nature",
+      "previewURL": "packages/longji-terraces/1/assets/LongjiTerracesLandscape.png",
+      "manifestURL": "packages/longji-terraces/1/manifest.json"
+    },
+    {
+      "id": "huyang-forest",
+      "version": 1,
+      "title": "Huyang Forest",
+      "category": "nature",
+      "previewURL": "packages/huyang-forest/1/assets/HuyangForestLandscape.png",
+      "manifestURL": "packages/huyang-forest/1/manifest.json"
     }
   ],
   "featured": [

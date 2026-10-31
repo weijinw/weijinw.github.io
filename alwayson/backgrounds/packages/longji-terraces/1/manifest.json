@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "longji-terraces",
+  "version": 1,
+  "title": "Longji Terraces",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFF0B8",
+    "#C2F5D0",
+    "#BFE3FF",
+    "#FFD0DE"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "LongjiTerracesLandscape",
+      "fileName": "LongjiTerracesLandscape.png",
+      "url": "assets/LongjiTerracesLandscape.png"
+    },
+    {
+      "name": "LongjiTerracesPortrait",
+      "fileName": "LongjiTerracesPortrait.png",
+      "url": "assets/LongjiTerracesPortrait.png"
+    }
+  ]
+}
