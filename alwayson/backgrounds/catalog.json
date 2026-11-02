@@ -216,6 +216,14 @@
       "category": "nature",
       "previewURL": "packages/huyang-forest/1/assets/HuyangForestLandscape.png",
       "manifestURL": "packages/huyang-forest/1/manifest.json"
+    },
+    {
+      "id": "rainy-city-lights",
+      "version": 1,
+      "title": "Rainy City Lights",
+      "category": "places",
+      "previewURL": "packages/rainy-city-lights/1/assets/RainyCityLightsLandscape.png",
+      "manifestURL": "packages/rainy-city-lights/1/manifest.json"
     }
   ],
   "featured": [
