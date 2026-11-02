@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "ginkgo-rain",
+  "version": 1,
+  "title": "Ginkgo Rain",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#BFE0FF",
+    "#C2F2D6",
+    "#DCCFFF",
+    "#FFC9D6"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "GinkgoRainLandscape",
+      "fileName": "GinkgoRainLandscape.png",
+      "url": "assets/GinkgoRainLandscape.png"
+    },
+    {
+      "name": "GinkgoRainPortrait",
+      "fileName": "GinkgoRainPortrait.png",
+      "url": "assets/GinkgoRainPortrait.png"
+    }
+  ]
+}

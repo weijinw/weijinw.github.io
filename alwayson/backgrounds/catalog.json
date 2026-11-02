@@ -224,6 +224,14 @@
       "category": "places",
       "previewURL": "packages/rainy-city-lights/1/assets/RainyCityLightsLandscape.png",
       "manifestURL": "packages/rainy-city-lights/1/manifest.json"
+    },
+    {
+      "id": "ginkgo-rain",
+      "version": 1,
+      "title": "Ginkgo Rain",
+      "category": "nature",
+      "previewURL": "packages/ginkgo-rain/1/assets/GinkgoRainLandscape.png",
+      "manifestURL": "packages/ginkgo-rain/1/manifest.json"
     }
   ],
   "featured": [
