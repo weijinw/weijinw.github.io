@@ -216,6 +216,14 @@
       "category": "nature",
       "previewURL": "packages/huyang-forest/1/assets/HuyangForestLandscape.png",
       "manifestURL": "packages/huyang-forest/1/manifest.json"
+    },
+    {
+      "id": "rain-on-glass",
+      "version": 1,
+      "title": "Rain on Glass",
+      "category": "places",
+      "previewURL": "packages/rain-on-glass/1/assets/RainOnGlassLandscape.png",
+      "manifestURL": "packages/rain-on-glass/1/manifest.json"
     }
   ],
   "featured": [
