@@ -218,12 +218,12 @@
       "manifestURL": "packages/huyang-forest/1/manifest.json"
     },
     {
-      "id": "rain-on-glass",
+      "id": "rainy-city-lights",
       "version": 1,
-      "title": "Rain on Glass",
+      "title": "Rainy City Lights",
       "category": "places",
-      "previewURL": "packages/rain-on-glass/1/assets/RainOnGlassLandscape.png",
-      "manifestURL": "packages/rain-on-glass/1/manifest.json"
+      "previewURL": "packages/rainy-city-lights/1/assets/RainyCityLightsLandscape.png",
+      "manifestURL": "packages/rainy-city-lights/1/manifest.json"
     }
   ],
   "featured": [

@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "rainy-city-lights",
+  "version": 1,
+  "title": "Rainy City Lights",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFD8A0",
+    "#BFE0FF",
+    "#D9CCFF",
+    "#BFF2DC"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "RainyCityLightsLandscape",
+      "fileName": "RainyCityLightsLandscape.png",
+      "url": "assets/RainyCityLightsLandscape.png"
+    },
+    {
+      "name": "RainyCityLightsPortrait",
+      "fileName": "RainyCityLightsPortrait.png",
+      "url": "assets/RainyCityLightsPortrait.png"
+    }
+  ]
+}
