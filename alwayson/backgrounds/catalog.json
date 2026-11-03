@@ -240,6 +240,14 @@
       "category": "nature",
       "previewURL": "packages/misty-autumn-lake/1/assets/MistyAutumnLakeLandscape.png",
       "manifestURL": "packages/misty-autumn-lake/1/manifest.json"
+    },
+    {
+      "id": "autumn-valley-railway",
+      "version": 1,
+      "title": "Autumn Valley Railway",
+      "category": "nature",
+      "previewURL": "packages/autumn-valley-railway/1/assets/AutumnValleyRailwayLandscape.png",
+      "manifestURL": "packages/autumn-valley-railway/1/manifest.json"
     }
   ],
   "featured": [

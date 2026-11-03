@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "autumn-valley-railway",
+  "version": 1,
+  "title": "Autumn Valley Railway",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFE9A8",
+    "#BFE6FF",
+    "#C8F5D2",
+    "#FFCFC2"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "AutumnValleyRailwayLandscape",
+      "fileName": "AutumnValleyRailwayLandscape.png",
+      "url": "assets/AutumnValleyRailwayLandscape.png"
+    },
+    {
+      "name": "AutumnValleyRailwayPortrait",
+      "fileName": "AutumnValleyRailwayPortrait.png",
+      "url": "assets/AutumnValleyRailwayPortrait.png"
+    }
+  ]
+}
