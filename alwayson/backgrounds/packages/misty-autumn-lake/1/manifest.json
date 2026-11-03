@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "misty-autumn-lake",
+  "version": 1,
+  "title": "Misty Autumn Lake",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFE9A8",
+    "#BFE6FF",
+    "#C8F5D2",
+    "#FFCFC2"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "MistyAutumnLakeLandscape",
+      "fileName": "MistyAutumnLakeLandscape.png",
+      "url": "assets/MistyAutumnLakeLandscape.png"
+    },
+    {
+      "name": "MistyAutumnLakePortrait",
+      "fileName": "MistyAutumnLakePortrait.png",
+      "url": "assets/MistyAutumnLakePortrait.png"
+    }
+  ]
+}

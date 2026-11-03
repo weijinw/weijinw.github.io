@@ -232,6 +232,14 @@
       "category": "nature",
       "previewURL": "packages/ginkgo-rain/1/assets/GinkgoRainLandscape.png",
       "manifestURL": "packages/ginkgo-rain/1/manifest.json"
+    },
+    {
+      "id": "misty-autumn-lake",
+      "version": 1,
+      "title": "Misty Autumn Lake",
+      "category": "nature",
+      "previewURL": "packages/misty-autumn-lake/1/assets/MistyAutumnLakeLandscape.png",
+      "manifestURL": "packages/misty-autumn-lake/1/manifest.json"
     }
   ],
   "featured": [
