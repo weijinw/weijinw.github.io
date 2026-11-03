@@ -248,6 +248,14 @@
       "category": "nature",
       "previewURL": "packages/autumn-valley-railway/1/assets/AutumnValleyRailwayLandscape.png",
       "manifestURL": "packages/autumn-valley-railway/1/manifest.json"
+    },
+    {
+      "id": "jellyfish-glow",
+      "version": 1,
+      "title": "Jellyfish Glow",
+      "category": "nature",
+      "previewURL": "packages/jellyfish-glow/1/assets/JellyfishGlowLandscape.png",
+      "manifestURL": "packages/jellyfish-glow/1/manifest.json"
     }
   ],
   "featured": [
