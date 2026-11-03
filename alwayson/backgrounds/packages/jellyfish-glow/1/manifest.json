@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "jellyfish-glow",
+  "version": 1,
+  "title": "Jellyfish Glow",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFD3A8",
+    "#A8F5D8",
+    "#FFB8E0",
+    "#FFF0A0"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "JellyfishGlowLandscape",
+      "fileName": "JellyfishGlowLandscape.png",
+      "url": "assets/JellyfishGlowLandscape.png"
+    },
+    {
+      "name": "JellyfishGlowPortrait",
+      "fileName": "JellyfishGlowPortrait.png",
+      "url": "assets/JellyfishGlowPortrait.png"
+    }
+  ]
+}
