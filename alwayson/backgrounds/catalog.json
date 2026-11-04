@@ -256,6 +256,14 @@
       "category": "nature",
       "previewURL": "packages/jellyfish-glow/1/assets/JellyfishGlowLandscape.png",
       "manifestURL": "packages/jellyfish-glow/1/manifest.json"
+    },
+    {
+      "id": "starlit-dunes",
+      "version": 1,
+      "title": "Starlit Dunes",
+      "category": "nature",
+      "previewURL": "packages/starlit-dunes/1/assets/StarlitDunesLandscape.png",
+      "manifestURL": "packages/starlit-dunes/1/manifest.json"
     }
   ],
   "featured": [

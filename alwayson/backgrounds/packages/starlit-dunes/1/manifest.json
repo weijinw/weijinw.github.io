@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "starlit-dunes",
+  "version": 1,
+  "title": "Starlit Dunes",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFD9A0",
+    "#BFE3FF",
+    "#D9CCFF",
+    "#BFF2DC"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "StarlitDunesLandscape",
+      "fileName": "StarlitDunesLandscape.png",
+      "url": "assets/StarlitDunesLandscape.png"
+    },
+    {
+      "name": "StarlitDunesPortrait",
+      "fileName": "StarlitDunesPortrait.png",
+      "url": "assets/StarlitDunesPortrait.png"
+    }
+  ]
+}
