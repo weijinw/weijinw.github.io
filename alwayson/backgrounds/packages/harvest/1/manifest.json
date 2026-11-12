@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "harvest",
+  "version": 1,
+  "title": "Harvest",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFE2A8",
+    "#FFC8B0",
+    "#F2D8FF",
+    "#D8F2C8"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "HarvestLandscape",
+      "fileName": "HarvestLandscape.png",
+      "url": "assets/HarvestLandscape.png"
+    },
+    {
+      "name": "HarvestPortrait",
+      "fileName": "HarvestPortrait.png",
+      "url": "assets/HarvestPortrait.png"
+    }
+  ]
+}
