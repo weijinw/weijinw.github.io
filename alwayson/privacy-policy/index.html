@@ -79,7 +79,9 @@
       <p>If you grant Photos access, AlwaysOn Desk Clock uses Apple's PhotoKit framework to read photos and photo metadata needed for the Photos widget.</p>
       <p>The app may store Photos widget preferences locally on your device, including the selected photo source, album identifier, selected photo asset identifiers, style, and appearance settings. These values are used only to restore your widget configuration.</p>
       <p>Rendered photo images are not written by the app to a persistent image cache. The app keeps only the most recently displayed image for each Photos widget in memory, and that in-memory cache is released when the app process ends.</p>
-      <p>Your photos are not sent to the developer.</p>
+      <p>So the Photos widget can skip documents, such as receipts and whiteboards, and leave out photos of people at night, the app checks photos on your device with Apple's Vision framework. It looks only at small previews already on your device and never downloads photos from iCloud for this. While your device is charging and the app is open, it checks photos slowly so the widget rarely has to wait.</p>
+      <p>The results are saved in a small file on your device so photos aren't checked twice. For each photo checked, the file keeps the photo's identifier, the number of people found, whether a cat or dog was found, and scene labels such as "document" or "beach". It does not keep any image or face data.</p>
+      <p>Your photos, and the results of these checks, are not sent to the developer.</p>
 
       <h2>Motion and Smart Dimming</h2>
       <p>If you grant Motion &amp; Fitness access, the app uses Apple's Core Motion framework to detect whether the device is still or moving. Smart Dimming uses this to dim the display when the device is still and brighten it when the device moves. Motion data is processed on your device while the app is running and is not stored or sent to the developer.</p>
@@ -107,7 +109,7 @@
       <h2>Data Retention and Deletion</h2>
       <p>AlwaysOn Desk Clock does not store user data on developer-controlled servers. The background download counts described above are anonymous totals and are kept for as long as they are useful to the developer.</p>
       <p>Calendar event information, weather results, and motion data are used temporarily while the app is running and are not persistently stored by the app.</p>
-      <p>App settings, widget layout preferences (including Time Together names, places, and hours), the cached location, Photos widget configuration identifiers, alarm settings, downloaded backgrounds, and rating and feedback flags may be stored locally on your device. They remain on your device until you change or reset them, delete the app, or clear related device data.</p>
+      <p>App settings, widget layout preferences (including Time Together names, places, and hours), the cached location, Photos widget configuration identifiers, the results of on-device photo checks, alarm settings, downloaded backgrounds, and rating and feedback flags may be stored locally on your device. They remain on your device until you change or reset them, delete the app, or clear related device data.</p>
       <p>Rendered Photos widget images are kept only in memory by the app and are not persistently cached to disk by the app.</p>
       <p>If you email feedback to the developer, you can ask for that email to be deleted by contacting the developer.</p>
 
@@ -119,11 +121,11 @@
       <p>AlwaysOn Desk Clock does not knowingly collect personal information from children. The app does not include accounts, messaging, advertising, or tracking.</p>
 
       <h2>Security</h2>
-      <p>The app does not operate servers that collect user data or maintain a remote user database. The only developer-run service is the Cloudflare Worker that delivers downloadable backgrounds and keeps the anonymous download counts. Locally stored app settings, widget layout preferences, the cached location, Photos widget configuration data, and downloaded backgrounds are protected by the security mechanisms provided by iOS and your device.</p>
+      <p>The app does not operate servers that collect user data or maintain a remote user database. The only developer-run service is the Cloudflare Worker that delivers downloadable backgrounds and keeps the anonymous download counts. Locally stored app settings, widget layout preferences, the cached location, Photos widget configuration data, the results of on-device photo checks, and downloaded backgrounds are protected by the security mechanisms provided by iOS and your device.</p>
 
       <h2>Changes</h2>
       <p>This Privacy Policy may be updated from time to time. Any changes will be posted on this page.</p>
-      <p>This Privacy Policy is effective as of October 31, 2026.</p>
+      <p>This Privacy Policy is effective as of November 12, 2026.</p>
 
       <h2>Contact Us</h2>
       <p>If you have questions about this Privacy Policy or the app's privacy practices, use the <a href="../../support/?app=alwayson">AlwaysOn support form</a>.</p>
