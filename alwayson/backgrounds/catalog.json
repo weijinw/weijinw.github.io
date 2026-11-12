@@ -303,7 +303,7 @@
         "manifestURL": "packages/harvest/1/manifest.json"
       },
       "regions": ["US", "PR", "GU", "VI", "AS", "MP"],
-      "start": "2026-11-11",
+      "start": "2026-11-13",
       "end": "2026-11-30",
       "headline": {
         "en": "Happy Holidays",
