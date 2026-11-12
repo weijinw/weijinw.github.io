@@ -292,6 +292,24 @@
         "es": "Llegó la noche de Halloween",
         "zh-Hans": "万圣夜主题来了"
       }
+    },
+    {
+      "background": {
+        "id": "thanksgiving-harvest",
+        "version": 1,
+        "title": "Thanksgiving Harvest",
+        "category": "art",
+        "previewURL": "packages/thanksgiving-harvest/1/assets/ThanksgivingHarvestLandscape.png",
+        "manifestURL": "packages/thanksgiving-harvest/1/manifest.json"
+      },
+      "regions": ["US", "PR", "GU", "VI", "AS", "MP"],
+      "start": "2026-11-13",
+      "end": "2026-11-30",
+      "headline": {
+        "en": "Thanksgiving Harvest is here",
+        "es": "Llegó la cosecha de Acción de Gracias",
+        "zh-Hans": "感恩节丰收主题来了"
+      }
     }
   ]
 }

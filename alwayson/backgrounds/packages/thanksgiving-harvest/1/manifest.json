@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "thanksgiving-harvest",
+  "version": 1,
+  "title": "Thanksgiving Harvest",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFE2A8",
+    "#FFC8B0",
+    "#F2D8FF",
+    "#D8F2C8"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "ThanksgivingHarvestLandscape",
+      "fileName": "ThanksgivingHarvestLandscape.png",
+      "url": "assets/ThanksgivingHarvestLandscape.png"
+    },
+    {
+      "name": "ThanksgivingHarvestPortrait",
+      "fileName": "ThanksgivingHarvestPortrait.png",
+      "url": "assets/ThanksgivingHarvestPortrait.png"
+    }
+  ]
+}
