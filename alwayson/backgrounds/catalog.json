@@ -264,6 +264,14 @@
       "category": "nature",
       "previewURL": "packages/starlit-dunes/1/assets/StarlitDunesLandscape.png",
       "manifestURL": "packages/starlit-dunes/1/manifest.json"
+    },
+    {
+      "id": "lily-bouquet",
+      "version": 1,
+      "title": "Lily Bouquet",
+      "category": "nature",
+      "previewURL": "packages/lily-bouquet/1/assets/LilyBouquetLandscape.png",
+      "manifestURL": "packages/lily-bouquet/1/manifest.json"
     }
   ],
   "featured": [
