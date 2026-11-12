@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "lily-bouquet",
+  "version": 1,
+  "title": "Lily Bouquet",
+  "foregroundColors": [
+    "#FFFFFF",
+    "#FFF0C2",
+    "#D6ECFF",
+    "#E9DDFF",
+    "#D4F7E4"
+  ],
+  "definitionURL": "definition.json",
+  "assets": [
+    {
+      "name": "LilyBouquetLandscape",
+      "fileName": "LilyBouquetLandscape.png",
+      "url": "assets/LilyBouquetLandscape.png"
+    },
+    {
+      "name": "LilyBouquetPortrait",
+      "fileName": "LilyBouquetPortrait.png",
+      "url": "assets/LilyBouquetPortrait.png"
+    }
+  ]
+}
